@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themecraze.net/html/volia/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:30 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Gallery</title>
+<title>Contact</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -38,8 +38,8 @@
         <!--        <div class="inner-container">-->
         <!--            <div class="top-left">-->
         <!--                <ul class="contact-list-two">-->
-        <!--                  <li><strong>Address</strong>A-838 sun westbank,ahemdavad</li>-->
-        <!--                    <li><strong>Timeing</strong> Monday - Saturday 10am - 7pm </li>-->
+        <!--                  <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
+        <!--                    <li><strong>Timeing</strong>Monday - Saturday 10am - 7pm </li>-->
         <!--                </ul>-->
         <!--            </div>-->
 
@@ -65,56 +65,54 @@
                 <!-- Main box -->
                 <div class="main-box">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/CV RFGBFV.png" alt="" title=""/>
                         </a>
                     </div>
-
                     <div class="nav-outer">
 
                         <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md">
+                        <nav class="main-menu navbar-expand-md">
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 
                                 <ul class="navigation clearfix">
 
-                                    <li class=" dropdown"><a href="index.html">Home</a>
+                                    <li class=" dropdown"><a href="index.php">Home</a>
 
                                     </li>
 
-                                    <li class="dropdown"><a href="about.html">About</a>
+                                    <li class="dropdown"><a href="about.php">About</a>
 
                                     </li>
 
-                                    <li class="dropdown "><a href="service.html">Services</a>
+                                    <li class="dropdown "><a href="service.php">Services</a>
 
                                     </li>
 
-                                    <li class="current dropdown"><a href="gallery.html">Gallery</a>
+                                    <li class="dropdown"><a href="gallery.php">Gallery</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="work.html">Work</a>
+                                    <li class="dropdown"><a href="work.php">Work</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="media.html">Media</a>
+                                    <li class="dropdown"><a href="media.php">Media</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li cass="current dropdown "><a href="contact.php">Contact</a></li>
 
                                 </ul>
 
                             </div>
 
                         </nav>
-                        
                         <!-- Main Menu End-->
                         <div class="outer-box clearfix">
                             <!-- Search Btn -->
                             <!--<div class="search-box-btn search-btn search-box-outer"><span class="icon fa fa-search"></span></div>-->
                             
                             <!-- Quote Btn -->
-                           <div class="btn-box">
-                                <a href="login.html" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-user"></i>LOGIN</span></a>
+                            <div class="btn-box">
+                                <a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>
                             </div>
                             
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
@@ -142,7 +140,7 @@
 
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="index-2.php"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
                         <div class="upper-right">
                             <div class="search-box">
                                 <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
@@ -158,7 +156,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index-2.html"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+            <div class="logo"><a href="index-2.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -180,14 +178,14 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.html"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="index-2.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
 
                 <ul class="contact-list-one">
-                    <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
+                     <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
 
                 <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 6pm <strong>Timeing</strong></li>
 
@@ -209,7 +207,7 @@
         <!-- Header Search -->
         <div class="search-popup">
             <button class="close-search"><i class="flaticon-close"></i></button>
-            <form method="post" action="https://themecraze.net/html/volia/blog.html">
+            <form method="post" action="https://themecraze.net/html/volia/blog.php">
                 <div class="form-group">
                     <input type="search" name="search-field" value="" placeholder="Search" required="">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -272,207 +270,115 @@
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>Gallery</h1>
+                <h1>Contact</h1>
                 <ul class="page-breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Gallery</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li>Contact</li>
                 </ul> 
             </div>
         </div>
     </section>
     <!--End Page Title-->
 
-    <!-- Gallery Section -->
-    <section class="gallery-section style-two">
+    <!-- Contact Section -->
+    <section class="contact-section">
         <div class="auto-container">
-            <div class="row">
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Decoration</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/gallery/2.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Conference Hall</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-2-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Banquet Hall</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-4-01-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Event</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-6-01-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Gift Vouchers</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-07-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Running</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-8-01-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Balloon Run Event</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Block -->
-                <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="image-box">
-                        <figure class="image"><img src="images/470X384 GALLERY-5-01.jpg" alt=""></figure>
-                        <div class="overlay-box">
-                            <div class="icon"><img src="images/icons/HAPPY TEAM LOGO--01---yh.png" alt=""></div>
-                            <h3><a href="schedule-detail.html">Green Planet Run Event</a></h3>
-                            <span class="text"></span>
-                        </div>
-                    </div>
-                </div>
+            <div class="sec-title text-center">
+                <span class="sub-title">GET IN TOUCH</span>
+                <h2>If Contact With Us Send Detail</h2>
+                <span class="divider"></span>
             </div>
 
-            <!-- <div class="styled-pagination">
-                <ul>
-                    <li class="prev-post"><a href="#"><span class="fa fa-angle-left"></span></a></li>
-                    <li><a href="#">1</a></li>
-                    <li class="active"><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li class="next-post"><a href="#"><span class="fa fa-angle-right"></span> </a></li>
-                </ul>
-            </div> -->
+            <div class="contact-form">
+                <form method="post" action="https://themecraze.net/html/volia/sendemail.php" id="contact-form">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <div class="input-outer">
+                                <input type="text" name="username" placeholder="Name" required="">
+                                <span class="icon fa fa-user"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <div class="input-outer">
+                                <input type="email" name="email" placeholder="Email" required="">
+                                <span class="icon fa fa-envelope"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <div class="input-outer">
+                                <input type="text" name="phone" placeholder="Phone" required="">
+                                <span class="icon fa fa-phone"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            <div class="input-outer">
+                                <input type="text" name="subject" placeholder="Subject" required="">
+                                <span class="icon fa fa-pencil-alt"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <textarea name="message" placeholder="Message"></textarea>
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
+                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Submit Now</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
-    <!-- End Gallery Section -->
-    
-    <!-- Call to Action Two -->
-    <section class="call-to-action-two" style="background-image: url(images/background/5.png);">
+    <!--End Contact Page Section -->
+
+     <!-- Map Section -->
+    <section class="map-section">
         <div class="auto-container">
-            <div class="row">
-                <div class="content-column col-lg-6 offset-lg-6">
-                    <div class="content-box wow fadeInUp">
-                        <span class="sub-title">GET EXPERIENCE</span>
-                        <h2>Shift Your Perspective on Digital Business</h2>
-                        <span class="text">How you transform your business as technology, consumer, habits industry dynamic s change? Find out from those leading the charge.</span>
-                        <a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-two"><span class="btn-title">Buy Ticket</span></a>
+            <div class="row clearfix">
+                <div class="contact-column col-lg-5 col-md-12 col-sm-12 order-2">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <span class="sub-title">QUICK CONTACT</span>
+                            <h2>Need Help? Contact Us</h2>
+                            <span class="divider"></span>
+                            <div class="text">Available to our business customers 24 hours a day.</div>
+                        </div>
+                        <ul class="contact-info">
+                            <li>
+                                <span class="icon fa fa-map-marker-alt"></span> 
+                                <h4>Our Location:</h4>
+                                <p>A-838 sun westbank,Ahmedabad</p>
+                            </li>
+
+                            <li>
+                                <span class="icon fa fa-phone-volume"></span> 
+                                <h4>24/7 Hotline:</h4>
+                                <p>+91 9662695956/079-46022913</p>
+                            </li>
+
+                            <li>
+                                <span class="icon fa fa-envelope"></span> 
+                                <h4>Email:</h4>
+                                <p><a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="map-column col-lg-7 col-md-12 col-sm-12">
+                     <!--Map Outer-->
+                    <div class="map-outer">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8017434483586!2d72.56835041079287!3d23.03105051592506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85eb1c23db1d%3A0x9ae71e556ff4a3!2sThe%20Address%20Sun%20Westbank%20Ashram%20Road%20Ahmedabad!5e0!3m2!1sen!2sin!4v1685359878400!5m2!1sen!2sin" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Call to Action Two -->
-<br>
-    <!--Clients Section-->
-      <section class="clients-section-two">
-
-        <div class="auto-container">
-
-
-
-            <!-- Sponsors Outer -->
-
-            <div class="sponsors-outer">
-
-                <!--clients carousel-->
-
-                <ul class="clients-carousel owl-carousel owl-theme default-nav">
-
-                    <li class="slide-item"> <a href="#"><img src="images/DC2-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/QWQ-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/567-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/SWASTIK-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/RIVERSTON-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/TATHASHREE-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/dc-01.png" alt=""></a> </li>
- 
-                    <li class="slide-item"> <a href="#"><img src="images/WEB ANALYTICS-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/SUN BUILDING-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/MAHENDRA-01.png" alt=""></a> </li>
-
-                    <!--<li class="slide-item"> <a href="#"><img src="images/CIRCLE-01.png" alt=""></a> </li>-->
-
-                    <li class="slide-item"> <a href="#"><img src="images/STAR-01.png" alt=""></a> </li>
-
-                    <li class="slide-item"> <a href="#"><img src="images/happy-team-logo.png" alt=""></a> </li>
-
-                    
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </section>
-    <br>
-    <br>
-    <!-- Nothing below this point is needed. -->
-    <!-- <div class="position-absolute dark-mode-toggle">
-        <div class="form-check form-switch">
-            <input type="checkbox" class="form-check-input" id="darkSwitch">
-            <label class="nav-link custom-control-label" for="darkSwitch">Toggle Dark Mode</label>
-        </div>
-    </div> -->
-    <!--End Clients Section-->
+    <!--End Map Section -->
 
     <!-- Subscribe Section Two -->
     <section class="subscribe-section-two">
@@ -485,7 +391,7 @@
                 </div>
 
                 <div class="newsletter-form-two">
-                    <form method="post" action="https://themecraze.net/html/volia/blog.html">
+                    <form method="post" action="https://themecraze.net/html/volia/blog.php">
                         <div class="form-group">
                             <input type="email" name="field-name" value="" placeholder="Signup For Newsletter" required>
                             <button type="submit" class="theme-btn btn-style-two"><span class="btn-title">Subscribe</span></button>
@@ -512,7 +418,7 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="index-2.html"><img src="images/HAPPY TEAM-01 2.png" alt="" /></a>
+                                        <a href="index-2.php"><img src="images/HAPPY TEAM-01 2.png" alt="" /></a>
                                     </div>
                                     <div class="text">
                                         <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
@@ -525,13 +431,13 @@
                                 <div class="footer-widget lnks-widget">
                                     <h2 class="widget-title">Useful Links</h2>
                                     <ul class="user-links">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="service.html">Services</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="work.html">Our Work</a></li>
-                                        <li><a href="media.html">Media</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="service.php">Services</a></li>
+                                        <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="work.php">Our Work</a></li>
+                                        <li><a href="media.php">Media</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -568,7 +474,7 @@
                                             <li>
                                                 <i class="icon flaticon-location"></i>
                                                 <div class="text">
-                                                    203 Madison Ave, NY, USA
+                                                    A-838 Sun Westbank,Ahmedabad
                                                     <strong>Address</strong>
                                                 </div>
                                             </li>                                            
@@ -590,6 +496,7 @@
                                         </ul>
 
                                         <ul class="social-icon-two">
+                                           
                                             <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
 
                                             <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
@@ -609,7 +516,7 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="gallery.html">Happy Team</a></div>
+            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="contact.php">Happy Team</a></div>
         </div>
     </footer>
     <!--End Main Footer -->
@@ -650,56 +557,7 @@
 <script src="js/script.js"></script>
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
-<!-- silder -->
-<script>
-    let items = document.querySelectorAll('.carousel .carousel-item')
-
-items.forEach((el) => {
-    const minPerSlide = 3
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-    }
-})
-
-/* Nothing below this point is needed. */
-const darkSwitch = document.getElementById("darkSwitch");
-window.addEventListener("load", function () {
-    if (darkSwitch) {
-        initTheme();
-        darkSwitch.addEventListener("change", function () {
-            resetTheme();
-        });
-    }
-});
-
-function initTheme() {
-    let darkThemeSelected =
-        localStorage.getItem("darkSwitch") !== null &&
-        localStorage.getItem("darkSwitch") === "dark";
-    darkSwitch.checked = darkThemeSelected;
-    darkThemeSelected
-        ? document.documentElement.setAttribute('data-bs-theme', 'dark')
-    : document.documentElement.removeAttribute("data-bs-theme");
-}
-
-function resetTheme() {
-    if (darkSwitch.checked) {
-        document.documentElement.setAttribute("data-bs-theme", "dark");
-        localStorage.setItem("darkSwitch", "dark");
-    } else {
-        document.documentElement.removeAttribute("data-bs-theme");
-        localStorage.removeItem("darkSwitch");
-    }
-}
-</script>
 </body>
 
-<!-- Mirrored from themecraze.net/html/volia/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:30 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
 </html>

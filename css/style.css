@@ -13097,6 +13097,22 @@ Accordian Box
     -moz-transition: all 300ms ease;
 }
 
+.add-form{
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    line-height: 30px;
+    padding: 8px 20px;
+    height: 50px;
+    border: 1px solid #f4f4f4;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+
+}
 .checkout-section .styled-form input[type="text"],
 .checkout-section .styled-form input[type="email"],
 .checkout-section .styled-form input[type="password"],

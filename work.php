@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themecraze.net/html/volia/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:30 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/schedule-detail.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
 <head>
 <meta charset="utf-8">
-<title>About Us</title>
+<title>Work</title>
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -38,8 +38,8 @@
         <!--        <div class="inner-container">-->
         <!--            <div class="top-left">-->
         <!--                <ul class="contact-list-two">-->
-        <!--                    <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
-        <!--                    <li><strong>Timeing</strong>Monday - Saturday 10am - 7pm </li>-->
+        <!--                   <li><strong>Address</strong>A-838 sun westbank,ahemdavad</li>-->
+        <!--                    <li><strong>Timeing</strong> Monday - Saturday 10am - 7pm </li>-->
         <!--                </ul>-->
         <!--            </div>-->
 
@@ -51,7 +51,7 @@
         
         <!--                    <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>-->
         
-        <!--                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>-->
+        <!--                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>-->
         <!--                </ul>-->
         <!--            </div>-->
         <!--        </div>-->
@@ -65,47 +65,47 @@
                 <!-- Main box -->
                 <div class="main-box">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/CV RFGBFV.png" alt="" title=""/>
                         </a>
                     </div>
+
                     <div class="nav-outer">
 
                         <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md">
+                        <nav class="main-menu navbar-expand-md">
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 
                                 <ul class="navigation clearfix">
 
-                                    <li class=" dropdown"><a href="index.html">Home</a>
+                                    <li class="dropdown"><a href="index.php">Home</a>
 
                                     </li>
 
-                                    <li class="current dropdown"><a href="about.html">About</a>
+                                    <li class="dropdown"><a href="about.php">About</a>
 
                                     </li>
 
-                                    <li class="dropdown "><a href="service.html">Services</a>
+                                    <li class="dropdown "><a href="service.php">Services</a>
 
                                     </li>
 
-                                    <li class="dropdown"><a href="gallery.html">Gallery</a>
+                                    <li class="dropdown"><a href="gallery.php">Gallery</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="work.html">Work</a>
+                                    <li class="current dropdown"><a href="work.php">Work</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="media.html">Media</a>
+                                    <li class="dropdown"><a href="media.php">Media</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
 
                                 </ul>
 
                             </div>
 
                         </nav>
-
                         
                         <!-- Main Menu End-->
                         <div class="outer-box clearfix">
@@ -114,7 +114,7 @@
                             
                             <!-- Quote Btn -->
                            <div class="btn-box">
-                                <a href="login.html" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-user"></i>LOGIN</span></a>
+                                <a href="login.php" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-user"></i>LOGIN</span></a>
                             </div>
                             
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
@@ -142,7 +142,7 @@
 
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="index-2.php"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
                         <div class="upper-right">
                             <div class="search-box">
                                 <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
@@ -158,7 +158,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index-2.html"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+            <div class="logo"><a href="index-2.php"><img src="images/logo5.png" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -180,14 +180,14 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.html"><img src="images/images/CV RFGBFV.png.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="index-2.php"><img src="images/logo5.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
 
                 <ul class="contact-list-one">
-                 <li><i class="flaticon-location"></i>A-838 sun westbank.Ahmedabad<strong>Address</strong></li>
+                    <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
 
                 <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 6pm <strong>Timeing</strong></li>
 
@@ -201,7 +201,7 @@
 
                     <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
 
-                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </nav>
         </div><!-- End Mobile Menu -->
@@ -209,7 +209,7 @@
         <!-- Header Search -->
         <div class="search-popup">
             <button class="close-search"><i class="flaticon-close"></i></button>
-            <form method="post" action="https://themecraze.net/html/volia/blog.html">
+            <form method="post" action="https://themecraze.net/html/volia/blog.php">
                 <div class="form-group">
                     <input type="search" name="search-field" value="" placeholder="Search" required="">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -272,347 +272,56 @@
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>About Us</h1>
+                <h1>Our Work</h1>
                 <ul class="page-breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li>About Us</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li>Our Work</li>
                 </ul> 
             </div>
         </div>
     </section>
     <!--End Page Title-->
-    
-    <!-- About Section Two -->
-    <section class="about-section-two">
-        <div class="anim-icons">
-            <span class="icon icon-circle-3"></span>
-            <span class="icon icon-circle-4"></span>
-        </div>
 
+     <!-- Schedule Detail -->
+    <section class="schedule-detail">
         <div class="auto-container">
-            <div class="row">
-                 <!-- Content Column -->
-                <div class="content-column col-lg-8 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <div class="sec-title">
-                            <span class="sub-title">WELCOME TO HAPPY TEAM</span>
-                            <h2>Conference For Solving <br>Problems For Your Business</h2>
-                            <span class="divider"></span>
-                            <div class="text">Happy Team is an experienced team of Event Management Specialists who know how to plan, promote and run an event that will we bring a fresh, unique approach to the event management industry. We are not party planners. We are strategic event management partners. We understand that a properly executed event can be leveraged to support an organization's strategic vision, incorporated into a company's marketing plan, or used to build networks and client loyalty. We approach every project with meticulous attention to detail and obsessive precision. Regardless of size and scope, we treat your events like a business with clear strategic goals, defined milestones, and a comprehensive plan to ensure that your event is delivered on time and on budget. At Spark, we put your organization first. We learn about your business, we focus on your challenges, and we plan events to support your goals.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Date Column -->
-                <div class="date-column col-lg-4 col-md-12 col-sm-12">
-                    <div class="date-box-outer">
-                        <!-- Date Box Two / Yellow  -->
-                        <div class="date-box-one bg_yellow order-2">
-                            <span class="day">11</span>
-                            <span class="month">June</span>
-                            <span class="title">Green Run</span>
-                        </div>
-
-                        <!-- Date Box One / Blue  -->
-                        <div class="date-box-one">
-                            <span class="day">30</span>
-                            <span class="month">April</span>
-                            <span class="title">Balloon Run Events</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="image-box">
+               
             </div>
 
-            <!-- Fact Counter Two -->
-            <div class="fact-counter-two">
-                <div class="row clearfix">
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="count-box">
-                                <span class="count-text" data-speed="3000" data-stop="4">0</span>
-                                <span class="counter-title">Speakers</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12" data-wow-delay="300ms">
-                        <div class="inner-box">
-                            <div class="count-box">
-                                <span class="count-text" data-speed="3000" data-stop="600">0</span>
-                                <span class="counter-title">Tickets</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn" data-wow-delay="600ms">
-                        <div class="inner-box">
-                            <div class="count-box">
-                                <span class="count-text" data-speed="3000" data-stop="13">0</span>
-                                <span class="counter-title">Sponsors</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Column-->
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn" data-wow-delay="900ms">
-                        <div class="inner-box">
-                            <div class="count-box">
-                                <span class="count-text" data-speed="3000" data-stop="20">0</span>
-                                <span class="counter-title">Sessions</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Video Box Outer -->
-            <div class="video-box-outer">
-                <!-- Video Box -->
-                <div class="video-box-one order-2">
-                    <figure class="image"><img src="images/resource/image-1.jpg" alt=""></figure>
-                    <a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube" class="lightbox-image play-btn wow fadeIn" data-wow-delay="500ms"><i class="icon flaticon-play-button-1"></i></a>
-                </div>
-
-                <!-- Info Box -->
-                <div class="info-box-one">
-                    <div class="inner-box">
-                        <h4>Mind Blowing Was Last Year 2023</h4>
-                        <p>We have dedicated tracks for every industry Whether you want to hire tech’s top talent meet with the policymakers.</p>
-                        <a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-two"><span class="btn-title">Book Ticket</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About Section Two -->
-
-    <!-- Fun Fact Section -->
-    <section class="fun-fact-section">
-
-        <div class="auto-container">
-
-            <div class="fact-counter">
-
-                <div class="row clearfix">
-
-                    <!--Column-->
-
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn">
-
-                        <div class="inner-box">
-
-                            <div class="count-box">
-
-                                <span class="icon bg-1"></span>
-
-                                <span class="count-text" data-speed="3000" data-stop="65">0</span>
-
-                            </div>
-
-                            <span class="counter-title">Completed Social Event</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!--Column-->
-
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn" data-wow-delay="300ms">
-
-                        <div class="inner-box">
-
-                            <div class="count-box">
-
-                                <span class="icon bg-2"></span>
-
-                                <span class="count-text" data-speed="3000" data-stop="18">0</span>
-
-                            </div>
-
-                            <span class="counter-title">Completed Sports Event</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!--Column-->
-
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn" data-wow-delay="600ms">
-
-                        <div class="inner-box">
-
-                            <div class="count-box">
-
-                                <span class="icon bg-3"></span>
-
-                                <span class="count-text" data-speed="3000" data-stop="10">0</span>
-
-                            </div>
-
-                            <span class="counter-title">Up Coming Sports Event </span>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <!--Column-->
-
-                    <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow zoomIn" data-wow-delay="900ms">
-
-                        <div class="inner-box">
-
-                            <div class="count-box">
-
-                                <span class="icon bg-4"></span>
-
-                                <span class="count-text" data-speed="3000" data-stop="5">0</span>
-
-                            </div>
-
-                            <span class="counter-title">Up Coming Projects</span>
-
-                        </div>
-
-                    </div>
-
-
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!--End Fun Fact Section -->
-
-    <section class="testimonial-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">Testimonial</span>
-                <h2>Why Our Customer Love Happy Team</h2>
-                <span class="divider"></span>
-                <div class="text">Fixomiz has 18+ years of experience with providing wide <br>area of specialty services works listed below</div>
-            </div>
-
-            <div class="outer-box">
-                <div class="testimonial-carousel owl-carousel owl-theme disable-nav">
-                    <!-- Testimonial Block -->
-                    <!--<div class="testimonial-block">-->
-                    <!--    <div class="inner-box">-->
-                    <!--        <div class="text-box">-->
-                    <!--            <p>If you want to do a good event memorable event thenvplz choose happy team for it.</p>-->
-                    <!--        </div>-->
-                    <!--        <div class="info-box">-->
-                    <!--            <div class="thumb"><img src="images/MAHESHBHAI-01.jpg" alt=""></div>-->
-                    <!--            <div class="rating">-->
-                    <!--                <span class="fa fa-star"></span>-->
-                    <!--                <span class="fa fa-star"></span>-->
-                    <!--                <span class="fa fa-star"></span>-->
-                    <!--                <span class="fa fa-star"></span>-->
-                    <!--                <span class="fa fa-star"></span>-->
-                    <!--            </div>-->
-                    <!--            <h5 class="name">Mahesh Bhai Patel</h5>-->
-                    <!--            <span class="designation">Manager</span>-->
-                    <!--        </div>-->
-                    <!--    </div>-->
-                    <!--</div>-->
-
-                    <!-- Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text-box">
-                                <p>The Events done by happy team till date have been very helpful to  us as they organise the events related to spouts health</p>
-                            </div>
-                            <div class="info-box">
-                                <div class="thumb"><img src="images/CHOTO-01.jpg" alt=""></div>
-                                <div class="rating">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                                <h5 class="name">Somansh Kalra</h5>
-                                <span class="designation">Data Analysis </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text-box">
-                                <p>It was really a good experince to give happy team own marriage handling work</p>
-                            </div>
-                            <div class="info-box">
-                                <div class="thumb"><img src="images/JANKBHAI-01.jpg" alt=""></div>
-                                <div class="rating">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                                <h5 class="name">Jankbhai Kamaliya</h5>
-                                <span class="designation">Co-founder</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text-box">
-                                <p>Happy team does an amazing work in lower budget than other event organizers.</p>
-                            </div>
-                            <div class="info-box">
-                                <div class="thumb"><img src="images/SP-01.jpg" alt=""></div>
-                                <div class="rating">
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                                <h5 class="name">Sandip pranami</h5>
-                                <span class="designation">Prodcution Supervisor</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="content-box">
+                <div class="upper-box">
+                   
                 </div>
                 
-            </div>
-        </div>
-    </section>
-    <!--End Testimonial Section -->
 
-    <!-- Call to Action Two -->
-<section class="call-to-action-two" style="background-image: url(images/5.png);">
-        <div class="auto-container">
-            <div class="row">
-                <div class="content-column col-lg-6 offset-lg-6">
-                    <div class="content-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <span class="sub-title">GET EXPERIENCE</span>
-                        <h2>Shift Your Perspective on Digital Business</h2>
-                        <span class="text">How you transform your business as technology, consumer, habits industry dynamic s change? Find out from those leading the charge.</span>
-                        <a href="buy-ticket.html" class="theme-btn btn-style-two"><span class="btn-title">Buy Ticket</span></a>
+                <div class="row two-column">
+                    <div class="column col-lg-6 col-md-12 order-2">                
+                        <figure class="image"><img src="images/WORK 473X272-01.jpg" alt=""></figure>
+                    </div>
+ <h4>Our Work</h4>
+                     <P>Creating Extraordinary Events Is Our Speciality. Innovative designs Entertainment Customized Theme Decor, and Glamorous, Event Plan Delivers Resonance to the WOW Factor While Saving Our Clients Valuable Time and Money.</P>
+                    <div class="column col-lg-6 col-md-12">                
+                       
+                   
+                        <ul class="list-style-one">
+                            <li>Creative Ideas.</li>
+                            <li>Save Time and Money</li>
+                            <li>Access to Technology</li>
+                            <li>Professional Event Delivery</li>
+                            <li>Manage Risk</li>
+                            <li><li>Manage Risk</li></li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- End Call to Action Two -->
-<br>
+    <!--End Schedule Detail -->
+
+    <!--Clients Section-->
+  <br>
     <!--Clients Section-->
        <section class="clients-section-two">
 
@@ -672,7 +381,6 @@
             <label class="nav-link custom-control-label" for="darkSwitch">Toggle Dark Mode</label>
         </div>
     </div> -->
-
     <!--End Clients Section-->
 
     <!-- Subscribe Section Two -->
@@ -686,7 +394,7 @@
                 </div>
 
                 <div class="newsletter-form-two">
-                    <form method="post" action="https://themecraze.net/html/volia/blog.html">
+                    <form method="post" action="https://themecraze.net/html/volia/blog.php">
                         <div class="form-group">
                             <input type="email" name="field-name" value="" placeholder="Signup For Newsletter" required>
                             <button type="submit" class="theme-btn btn-style-two"><span class="btn-title">Subscribe</span></button>
@@ -701,7 +409,8 @@
     <!--End Subscribe Section Two -->
 
     <!-- Main Footer -->
-   <footer class="main-footer style-three">
+     
+    <footer class="main-footer style-three">
         <!--Widgets Section-->
         <div class="widgets-section">
             <div class="auto-container">
@@ -713,7 +422,9 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="index-2.html"><img src="images/HAPPY TEAM-01 2.png" alt="" /></a>
+                                    <div class="foot-logo">
+                                        <a href="index-2.php"><img src="images/HAPPY TEAM-01 2.png" alt="" /></a>
+                                    </div>
                                     </div>
                                     <div class="text">
                                         <p>We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different sectors, mainly in Europe and other countries.</p>
@@ -726,13 +437,13 @@
                                 <div class="footer-widget lnks-widget">
                                     <h2 class="widget-title">Useful Links</h2>
                                     <ul class="user-links">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="service.html">Services</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                        <li><a href="work.html">Our Work</a></li>
-                                        <li><a href="media.html">Media</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="service.php">Services</a></li>
+                                        <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="work.php">Our Work</a></li>
+                                        <li><a href="media.php">Media</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -769,7 +480,7 @@
                                             <li>
                                                 <i class="icon flaticon-location"></i>
                                                 <div class="text">
-                                                    A-838 sun westbank.Ahmedabad
+                                                    A-838 Sun Westbank Ahmedabad
                                                     <strong>Address</strong>
                                                 </div>
                                             </li>                                            
@@ -783,7 +494,7 @@
                                 <div class="footer-widget">
                                     <h2 class="widget-title">Events</h2>
                                     <div class="widget-content">
-                                        <ul class="events-list">
+                                          <ul class="events-list">
                                             <li>BalloonRun – Ahmedabad</li>
                                             <li>GreenplanetRun – Ahmedabad</li>
                                             <li>Corporate Event – Ahmedabad</li>
@@ -791,13 +502,14 @@
                                         </ul>
 
                                         <ul class="social-icon-two">
+                                           
                                             <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
 
                                             <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
                         
                                             <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
                         
-                                            <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>
+                                            <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"></a></li>
                                         </ul>
                                     </div>       
                                 </div>
@@ -810,9 +522,11 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="gallery.html">Happy Team</a></div>
+            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="about.php">Happy Team</a></div>
         </div>
     </footer>
+    <!--End Main Footer -->
+
     <!--End Main Footer -->
 
 
@@ -821,6 +535,7 @@
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
 
 <!-- Color Palate -->
 <!--<div class="color-palate">-->
@@ -838,7 +553,6 @@
 <!--    <a href="#" class="purchase-btn">Purchase now</a>-->
 <!--</div><!-- End Color Switcher -->-->
 
-
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -852,55 +566,53 @@
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
 <!-- silder -->
-<script>
-    let items = document.querySelectorAll('.carousel .carousel-item')
+<script>let items = document.querySelectorAll('.carousel .carousel-item')
 
-items.forEach((el) => {
-    const minPerSlide = 3
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
+    items.forEach((el) => {
+        const minPerSlide = 3
+        let next = el.nextElementSibling
+        for (var i=1; i<minPerSlide; i++) {
+            if (!next) {
+                // wrap carousel by using first child
+                next = items[0]
+              }
+            let cloneChild = next.cloneNode(true)
+            el.appendChild(cloneChild.children[0])
+            next = next.nextElementSibling
+        }
+    })
+    
+    /* Nothing below this point is needed. */
+    const darkSwitch = document.getElementById("darkSwitch");
+    window.addEventListener("load", function () {
+        if (darkSwitch) {
+            initTheme();
+            darkSwitch.addEventListener("change", function () {
+                resetTheme();
+            });
+        }
+    });
+    
+    function initTheme() {
+        let darkThemeSelected =
+            localStorage.getItem("darkSwitch") !== null &&
+            localStorage.getItem("darkSwitch") === "dark";
+        darkSwitch.checked = darkThemeSelected;
+        darkThemeSelected
+            ? document.documentElement.setAttribute('data-bs-theme', 'dark')
+        : document.documentElement.removeAttribute("data-bs-theme");
     }
-})
-
-/* Nothing below this point is needed. */
-const darkSwitch = document.getElementById("darkSwitch");
-window.addEventListener("load", function () {
-    if (darkSwitch) {
-        initTheme();
-        darkSwitch.addEventListener("change", function () {
-            resetTheme();
-        });
-    }
-});
-
-function initTheme() {
-    let darkThemeSelected =
-        localStorage.getItem("darkSwitch") !== null &&
-        localStorage.getItem("darkSwitch") === "dark";
-    darkSwitch.checked = darkThemeSelected;
-    darkThemeSelected
-        ? document.documentElement.setAttribute('data-bs-theme', 'dark')
-    : document.documentElement.removeAttribute("data-bs-theme");
-}
-
-function resetTheme() {
-    if (darkSwitch.checked) {
-        document.documentElement.setAttribute("data-bs-theme", "dark");
-        localStorage.setItem("darkSwitch", "dark");
-    } else {
-        document.documentElement.removeAttribute("data-bs-theme");
-        localStorage.removeItem("darkSwitch");
-    }
-}
-</script>
+    
+    function resetTheme() {
+        if (darkSwitch.checked) {
+            document.documentElement.setAttribute("data-bs-theme", "dark");
+            localStorage.setItem("darkSwitch", "dark");
+        } else {
+            document.documentElement.removeAttribute("data-bs-theme");
+            localStorage.removeItem("darkSwitch");
+        }
+    }</script>
 </body>
 
-<!-- Mirrored from themecraze.net/html/volia/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:30 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/schedule-detail.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
 </html>

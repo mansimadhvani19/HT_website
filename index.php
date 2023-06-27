@@ -102,7 +102,7 @@
                 <div class="main-box">
                    
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="images/CV RFGBFV.png" alt="" title=""/>
                             </a>
                         </div>
@@ -117,27 +117,27 @@
 
                                 <ul class="navigation clearfix">
 
-                                    <li class="current dropdown"><a href="index.html">Home</a>
+                                    <li class="current dropdown"><a href="index.php">Home</a>
 
                                     </li>
 
-                                    <li class="dropdown"><a href="about.html">About</a>
+                                    <li class="dropdown"><a href="about.php">About</a>
 
                                     </li>
 
-                                    <li class="dropdown "><a href="service.html">Services</a>
+                                    <li class="dropdown "><a href="service.php">Services</a>
 
                                     </li>
 
-                                    <li class="dropdown"><a href="gallery.html">Gallery</a>
+                                    <li class="dropdown"><a href="gallery.php">Gallery</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="work.html">Work</a>
+                                    <li class="dropdown"><a href="work.php">Work</a>
                                     </li>
 
-                                    <li class="dropdown"><a href="media.html">Media</a>
+                                    <li class="dropdown"><a href="media.php">Media</a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
 
                                 </ul>
 
@@ -153,7 +153,7 @@
                             
                             <!-- Quote Btn -->
                             <div class="btn-box">
-                                <a href="login.html" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-user"></i>LOGIN</span></a>
+                                <a href="login.php" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-user"></i>LOGIN</span></a>
                             </div>
                             
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
@@ -181,7 +181,7 @@
 
                 <div class="main-box">
                     <div class="logo-box">
-                        <div class="logo"><a href="index-2.html"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
+                        <div class="logo"><a href="index-2.php"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
                         <div class="upper-right">
                             <div class="search-box">
                                 <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
@@ -197,7 +197,7 @@
 
         <!-- Mobile Header -->
         <div class="mobile-header">
-            <div class="logo"><a href="index.html"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+            <div class="logo"><a href="index.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
 
             <!--Nav Box-->
             <div class="nav-outer clearfix">
@@ -219,7 +219,7 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index.html"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="index.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
@@ -248,7 +248,7 @@
         <!-- Header Search -->
         <div class="search-popup">
             <button class="close-search"><i class="flaticon-close"></i></button>
-            <form method="post" action="https://themecraze.net/html/volia/blog.html">
+            <form method="post" action="https://themecraze.net/html/volia/blog.php">
                 <div class="form-group">
                     <input type="search" name="search-field" value="" placeholder="Search" required="">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -390,7 +390,8 @@
 
                         <!--<div class="time-counter-two animate-4"><div class="time-countdown" data-countdown="06/11/2023"></div></div>-->
 
-                        <div class="btn-box animate-5"><a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                        <!-- <div class="btn-box animate-5"><a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div> -->
+                        <div class="btn-box animate-5"><a href="event_registration.php><span class="btn-title">Book Now</span></a></div>
 
                     </div>  
 
@@ -466,7 +467,7 @@
 <!-- 
                         <div class="btn-box">
 
-                            <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>
+                            <a href="buy-ticket.php" class="theme-btn btn-style-one"><span class="btn-title">Book Ticket</span></a>
 
                         </div> -->
 
@@ -524,7 +525,7 @@
 
                         <p>Corporate events describes private events held by corporations or businesses for their staff, clients or stakeholders.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="about.php" class="read-more">Read More</a>
 
                     </div>
 
@@ -544,7 +545,7 @@
 
                         <p>private events includes :-Weddings, Birthdays, Themed Parties, Wedding reception, baby shower, kitty parties</p>
 
-                        <a href="event.html" class="read-more">Read More</a>
+                        <a href="event.php" class="read-more">Read More</a>
 
                     </div>
 
@@ -564,7 +565,7 @@
 
                         <p>Any event whose primary purpose is to generate funds for a cause, charity, or non-profit is considered a charity event.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="about.php" class="read-more">Read More</a>
 
                     </div>
 
@@ -584,7 +585,7 @@
 
                         <p>Dolor sit amet consectetur elit sed do eiusmod tempor incd.</p>
 
-                        <a href="about.html" class="read-more">Read More</a>
+                        <a href="about.php" class="read-more">Read More</a>
 
                     </div>
 
@@ -748,7 +749,7 @@
 
                         <div class="image-box">
 
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/VISHNU SIR.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="speaker-detail.php"><img src="images/VISHNU SIR.jpg" alt=""></a></figure>
 
                             <span class="plus-icon fa fa-plus"></span>
 
@@ -768,7 +769,7 @@
 
                         <div class="info-box">
 
-                            <h4 class="name"><a href="speaker-detail.html">Vishnu Kamaliya</a></h4>
+                            <h4 class="name"><a href="speaker-detail.php">Vishnu Kamaliya</a></h4>
                           <span class="designation"><strong> Ultra Marathoner</strong></span><br>
                             <span class="designation">Director</span>
 
@@ -788,7 +789,7 @@
 
                         <div class="image-box">
 
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/speakers-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="speaker-detail.php"><img src="images/speakers-01.jpg" alt=""></a></figure>
 
                             <span class="plus-icon fa fa-plus"></span>
 
@@ -808,7 +809,7 @@
 
                         <div class="info-box">
 
-                            <h4 class="name"><a href="speaker-detail.html">Jayshree Kulvariya</a></h4>
+                            <h4 class="name"><a href="speaker-detail.php">Jayshree Kulvariya</a></h4>
 
                             <span class="designation">Anchor</span>
 
@@ -827,7 +828,7 @@
 
                         <div class="image-box">
 
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/adii.jpeg" alt=""></a></figure>
+                            <figure class="image"><a href="speaker-detail.php"><img src="images/adii.jpeg" alt=""></a></figure>
 
                             <span class="plus-icon fa fa-plus"></span>
 
@@ -847,7 +848,7 @@
 
                         <div class="info-box">
 
-                            <h4 class="name"><a href="speaker-detail.html">Aditya Sharma</a></h4>
+                            <h4 class="name"><a href="speaker-detail.php">Aditya Sharma</a></h4>
 
                             <span class="designation">Data Analysis</span>
 
@@ -868,7 +869,7 @@
 
                         <div class="image-box">
 
-                            <figure class="image"><a href="speaker-detail.html"><img src="images/Renu.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="speaker-detail.php"><img src="images/Renu.jpg" alt=""></a></figure>
 
                             <span class="plus-icon fa fa-plus"></span>
 
@@ -888,7 +889,7 @@
 
                         <div class="info-box">
 
-                            <h4 class="name"><a href="speaker-detail.html">Renu Nag</a></h4>
+                            <h4 class="name"><a href="speaker-detail.php">Renu Nag</a></h4>
 
                             <span class="designation">Social Media</span>
 
@@ -973,7 +974,7 @@
 
                             <!-- <span class="tag">Participants</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -987,7 +988,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Event management</a></h4>
+                            <h4><a href="blog-single.php">Event management</a></h4>
 
                             <div class="text">Professional event managers are skilled in the technical as well as the creative and logistical implementation of events. Whether it’s a trade show, Birthday party..</div>
 <!-- 
@@ -1017,7 +1018,7 @@
 
                             <!-- <span class="tag">Virtual</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-2-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-2-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -1031,7 +1032,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Event coordination</a></h4>
+                            <h4><a href="blog-single.php">Event coordination</a></h4>
 
                             <div class="text">Event coordinators specialize in developing innovative ways to inspire, communicate, and entertain. They look after the most important aspects of event production including lighting..</div>
 
@@ -1061,7 +1062,7 @@
 
                             <!-- <span class="tag">Marketing</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-3-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-3-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -1075,7 +1076,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Decor hire services</a></h4>
+                            <h4><a href="blog-single.php">Decor hire services</a></h4>
 
                             <div class="text">These companies specialize in providing décor hire services
                                 that will suit and bridge the needs of your next special event.
@@ -1111,7 +1112,7 @@
 
                             <!-- <span class="tag">Participants</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-4-01-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-4-01-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -1125,7 +1126,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Conferences and Venue sourcing services</a></h4>
+                            <h4><a href="blog-single.php">Conferences and Venue sourcing services</a></h4>
 
                             <div class="text">Event planning companies can work with you to create a unique conference identity with careful programming of content and detailed logistic planning </div>
 
@@ -1155,7 +1156,7 @@
 
                             <!-- <span class="tag">Virtual</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-5-01-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-5-01-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -1169,7 +1170,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Special event planning services</a></h4>
+                            <h4><a href="blog-single.php">Special event planning services</a></h4>
 
                             <div class="text">The aim of event planners is to take the stress out of planning a special event by taking a step ahead of the market. They can provide beautiful centrepieces, comfortable linens, stunning floral arrangements, and funky entertainment...</div>
 <!-- 
@@ -1199,7 +1200,7 @@
 
                             <!-- <span class="tag">Marketing</span> -->
 
-                            <figure class="image"><a href="blog-single.html"><img src="images/370X270-6-01-01.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-single.php"><img src="images/370X270-6-01-01.jpg" alt=""></a></figure>
 
                         </div>
 
@@ -1213,7 +1214,7 @@
 
                             </div>
 
-                            <h4><a href="blog-single.html">Events entertainment</a></h4>
+                            <h4><a href="blog-single.php">Events entertainment</a></h4>
 
                             <div class="text">Whether you’re in need of corporate entertainment in Brisbane, Sydney, or Melbourne, the best event management company will bring them to you!
                                 Now that you have a clear idea about why you need to hire an event management company, it’s time to hire.. </div>
@@ -1421,7 +1422,7 @@
 
                     <div class="newsletter-form">
 
-                        <form method="post" action="https://themecraze.net/html/volia/blog.html">
+                        <form method="post" action="https://themecraze.net/html/volia/blog.php">
 
                             <div class="form-group">
 
@@ -1505,7 +1506,7 @@
 
                     <ul class="footer-nav">
 
-                       <li><a href="faq.html">Terms of Service</a></li> 
+                       <li><a href="faq.php">Terms of Service</a></li> 
 
                        <li><a href="#">Privacy Policy</a></li> 
 
@@ -1515,7 +1516,7 @@
 
                     <div class="copyright-text">
 
-                        <p>Copyright © 2023 All Rights Reserved by <a href="index.html">Happy Team</a></p>
+                        <p>Copyright © 2023 All Rights Reserved by <a href="index.php">Happy Team</a></p>
 
                     </div>
 
