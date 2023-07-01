@@ -286,7 +286,14 @@
     <section class="register-section">
         <div class="auto-container">
             <div class="row clearfix">
-                
+                        <?php
+                            // session_start();
+                            $message ="";
+                            if(isset($_GET['err'])){
+                                $message = $_GET['err'];
+                                echo '<div class = "alert alert-danger">'.$message.'</div>';
+                            }
+                        ?>
                 <!--Form Column-->
                 <div class="form-column column col-lg-6 col-md-12 col-sm-12">
                 
@@ -297,22 +304,22 @@
                     
                     <!--Login Form-->
                     <div class="styled-form login-form">
-                        <form method="post" action="index.php">
+                    <form method="post" action="login_handler.php" id="contact-form" class="default-form">
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Your Name *">
+                                <input type="text" name="name" value="" placeholder="Your Name *">
                             </div>
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Emai Address*">
+                                <input type="email" name="email" value="" placeholder="Email Address*">
                             </div>
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
+                                <input type="password" name="password" value="" placeholder="Enter Password">
                             </div>
                             <div class="clearfix">
                                 <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Login Now</span></button>
+                                    <button type="submit" name="submit" class="theme-btn btn-style-one"><span class="btn-title">Login Now</span></button>
                                 </div>
                                 <div class="form-group social-links-two pull-right">
                                     Or login with 
@@ -343,22 +350,22 @@
                     
                     <!--Login Form-->
                     <div class="styled-form register-form">
-                        <form method="post" action="https://themecraze.net/html/volia/index.php">
+                    <form method="post" action="registration_handler.php" id="contact-form" class="default-form">
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Your Name *">
+                                <input type="text" name="name" value="" placeholder="Your Name *">
                             </div>
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Emai Address*">
+                                <input type="email" name="email" value="" placeholder="Email ID*">
                             </div>
                             <div class="form-group">
                                 <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
+                                <input type="password" name="password" value="" placeholder="Enter Password">
                             </div>
                             <div class="clearfix">
                                 <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Register here</span></button>
+                                    <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Register here</span></button>
                                 </div>
                                 <div class="form-group submit-text pull-right">
                                     * You must be a free registered to submit content.

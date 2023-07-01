@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:44 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Contact</title>
+<title>Privacy Policy</title>
+
+
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -20,6 +22,51 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<style>
+   .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+            font-size: 18px;
+        }
+        
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: 15px;
+        }
+        
+        .container h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .container p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .container ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .container li {
+            margin-bottom: 5px;
+        }
+        ol.custom-list {
+            counter-reset: item;
+            list-style-type: none;
+        }
+
+        ol.custom-list li::before {
+            content: counter(item, lower-alpha) ". ";
+            counter-increment: item;
+        }
+</style>
 </head>
 
 <body>
@@ -30,6 +77,7 @@
     <div class="preloader"></div>
 
     <!-- Main Header-->
+     <!-- Main Header-->
     <header class="main-header header-style-two">
 
         <!-- Header top -->
@@ -38,7 +86,7 @@
         <!--        <div class="inner-container">-->
         <!--            <div class="top-left">-->
         <!--                <ul class="contact-list-two">-->
-        <!--                  <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
+        <!--                    <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
         <!--                    <li><strong>Timeing</strong>Monday - Saturday 10am - 7pm </li>-->
         <!--                </ul>-->
         <!--            </div>-->
@@ -51,7 +99,7 @@
         
         <!--                    <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>-->
         
-        <!--                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>-->
+        <!--                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>-->
         <!--                </ul>-->
         <!--            </div>-->
         <!--        </div>-->
@@ -72,7 +120,7 @@
                     <div class="nav-outer">
 
                         <!-- Main Menu -->
-                        <nav class="main-menu navbar-expand-md">
+                            <nav class="main-menu navbar-expand-md">
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 
@@ -82,7 +130,7 @@
 
                                     </li>
 
-                                    <li class="dropdown"><a href="about.php">About</a>
+                                    <li class="current dropdown"><a href="about.php">About</a>
 
                                     </li>
 
@@ -98,22 +146,24 @@
 
                                     <li class="dropdown"><a href="media.php">Media</a>
                                     </li>
-                                    <li cass="current dropdown "><a href="contact.php">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
 
                                 </ul>
 
                             </div>
 
                         </nav>
+
+                        
                         <!-- Main Menu End-->
                         <div class="outer-box clearfix">
                             <!-- Search Btn -->
                             <!--<div class="search-box-btn search-btn search-box-outer"><span class="icon fa fa-search"></span></div>-->
                             
                             <!-- Quote Btn -->
-                            <div class="btn-box">
-                                <a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>
-                            </div>
+                            <!--<div class="btn-box">-->
+                            <!--    <a href="index.php" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>-->
+                            <!--</div>-->
                             
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
                             <div class="top-right">
@@ -178,14 +228,14 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="index-2.php"><img src="images/images/CV RFGBFV.png.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
 
                 <ul class="contact-list-one">
-                     <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
+                 <li><i class="flaticon-location"></i>A-838 sun westbank.Ahmedabad<strong>Address</strong></li>
 
                 <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 6pm <strong>Timeing</strong></li>
 
@@ -199,7 +249,7 @@
 
                     <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
 
-                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </nav>
         </div><!-- End Mobile Menu -->
@@ -217,6 +267,7 @@
         <!-- End Header Search -->
 
     </header>
+    <!--End Main Header -->
     <!--End Main Header -->
 
     <!-- Hidden bar back drop -->
@@ -252,140 +303,134 @@
             </div>
 
             <ul class="contact-list-one">
-                <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
-
-                <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 7pm <strong>Timeing</strong></li>
-
+                <li><i class="flaticon-location"></i>A-838 Sun Westbank,Ahmedabad <strong>Address</strong></li>
+                <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 10am - 6pm <strong>Timing</strong></li>
                 <li><i class="flaticon-email-1"></i> <a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a> <strong>Mail to us</strong></li>
             </ul>
         </div>
     </section>
     <!--End Hidden Bar -->
-
     <!--Page Title-->
-    <section class="page-title" style="background-image: url(./images/1-Copy.jpg);">
+    <section class="page-title" style="background-image: url(images/background/11.jpg);">
         <div class="anim-icons full-width">
             <span class="icon icon-bull-eye"></span>
             <span class="icon icon-dotted-circle"></span>
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>Contact</h1>
+                <h1>Privacy Policy</h1>
                 <ul class="page-breadcrumb">
                     <li><a href="index.php">Home</a></li>
-                    <li>Contact</li>
+                    <li>Privacy Policy</li>
                 </ul> 
             </div>
         </div>
     </section>
     <!--End Page Title-->
+    
+    <!-- Terms of service start -->
 
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">GET IN TOUCH</span>
-                <h2>If Contact With Us Send Detail</h2>
-                <span class="divider"></span>
-            </div>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        
+        <p>We collect personal information from our customers and website users in the regular course of doing business. This text answers some of your most frequently asked questions and lets you know exactly how we're protecting the information you entrust to us.</p>
+        
+        <p>This policy was last updated on June 29th, 2023.</p>
+        
+        <h2>What personal information do we collect about you?</h2>
+        <p>When you sign up to use the Happy Team event management company, we collect the following information about you:</p>
+        
+        <ul>
+            <ol class="custom-list">
+                <li>Name</li>
+                <li>Address</li>
+                <li>Postal Code</li>
+                <li>Phone Number</li>
+                <li>Email Address</li>
+                <li>Product/Service Preferences</li>
 
-            <div class="contact-form">
-                <form method="post" action="contact_handler.php" id="contact-form">
-                    <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="name" placeholder="Name" required="">
-                                <span class="icon fa fa-user"></span>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="email" name="email" placeholder="Email" required="">
-                                <span class="icon fa fa-envelope"></span>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="phone" placeholder="Phone" required="">
-                                <span class="icon fa fa-phone"></span>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="subject" placeholder="Subject" required="">
-                                <span class="icon fa fa-pencil-alt"></span>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                            <textarea name="message" placeholder="Message"></textarea>
-                        </div>
-                        
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Submit Now</span></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!--End Contact Page Section -->
-
-     <!-- Map Section -->
-    <section class="map-section">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="contact-column col-lg-5 col-md-12 col-sm-12 order-2">
-                    <div class="inner-column">
-                        <div class="sec-title">
-                            <span class="sub-title">QUICK CONTACT</span>
-                            <h2>Need Help? Contact Us</h2>
-                            <span class="divider"></span>
-                            <div class="text">Available to our business customers 24 hours a day.</div>
-                        </div>
-                        <ul class="contact-info">
-                            <li>
-                                <span class="icon fa fa-map-marker-alt"></span> 
-                                <h4>Our Location:</h4>
-                                <p>A-838 sun westbank,Ahmedabad</p>
-                            </li>
-
-                            <li>
-                                <span class="icon fa fa-phone-volume"></span> 
-                                <h4>24/7 Hotline:</h4>
-                                <p>+91 9662695956/079-46022913</p>
-                            </li>
-
-                            <li>
-                                <span class="icon fa fa-envelope"></span> 
-                                <h4>Email:</h4>
-                                <p><a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Form Column -->
-                <div class="map-column col-lg-7 col-md-12 col-sm-12">
-                     <!--Map Outer-->
-                    <div class="map-outer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8017434483586!2d72.56835041079287!3d23.03105051592506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85eb1c23db1d%3A0x9ae71e556ff4a3!2sThe%20Address%20Sun%20Westbank%20Ashram%20Road%20Ahmedabad!5e0!3m2!1sen!2sin!4v1685359878400!5m2!1sen!2sin" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Map Section -->
-
+            </ol>
+        </ul>
+        
+        <h2>How do we use this information?</h2>
+        <p>The main reasons we collect personal information from you are:</p>
+        
+        <ul>
+            <ol class="custom-list">
+                <li>Application forms</li>
+                <li>Complaints</li>
+                <li>Customer relationship management</li>
+                <li>Customer service</li>
+                <li>Orders</li>
+                <li>To complete a sale/transaction</li>
+            </ol>
+        </ul>
+        
+        <p>If it's a necessary part of any of these transactions, we may disclose your information to another company. For example, when you sign up to use our event planning system, we pass on your personal information to a credit card processing company so we can complete a credit charge or a credit authorization.</p>
+        
+        <h2>Use of Personal Information for Secondary Reasons</h2>
+        <p>We may also use your personal information for other secondary reasons, including:</p>
+        
+        <ul>
+        <ol class="custom-list">
+            <li>To complete a sale/transaction and charge your card</li>
+            <li>Customer service, so we can contact you regarding issues you may have submitted to Happy Team Support</li>
+            <li>Customer relationship management</li>
+            <li>Emergency contact information</li>
+            </ol>
+        </ul>
+        
+        <h2>Sharing of Personal Information with Third Parties</h2>
+        <p>When you participate in any event, we share your personal information with our credit card processing suppliers in order to process your payments and handle refunds or other billing adjustments, if needed. Our payment processing suppliers include:</p>
+        
+        <ul>
+        <ol class="custom-list">
+            <li>Credit card processing company - www.razorpay.com</li>
+            <li>Alternate online payment processing company: www.razorpay.com</li>
+        </ol>
+        </ul>
+        
+        <p>We will also disclose your personal information if we are required by law to do so. If you are an event attendee customer (i.e., someone purchasing a ticket or attending an event), we may also share your information with the event organizer through the Happy Team system so that they can carry out their event organization activities or contact you as they see fit.</p>
+        
+        <h2>Self-published Information and Public Profiles</h2>
+        <p>When you use the Happy Team event websites as an event attendee, you may choose to enter personal "profile" information, such as biography, stage name, social media links, and pictures in order to self-publish your profile and share it with other event attendees. Entering and self-publishing such information is optional and is not required to use attendee-facing websites and apps.</p>
+        
+        <p>If you've entered your profile information, you have a choice of self-publishing your profile on the event website and mobile apps so that event organizers and other attendees may view it and contact you if they so choose. Through your "My Account" page, you can publish, unpublish, or delete your information at any time.</p>
+        
+        <h2>How do we get your consent?</h2>
+        <p>When you provide us with personal information to complete a purchase transaction, verify your credit card, place an order, purchase a ticket, arrange for a service, or request a refund or an adjustment in your order, you provide your consent to our collecting it and using it for that specific reason. By providing this information, you are also consenting for us to share this information with the event organizer for that event on your behalf.</p>
+        
+        <p>If we ask you for personal information for a secondary reason, like marketing our event planning services, we will ask you directly for your consent. Opting in by saying yes allows us to collect and use your information for the specified purpose.</p>
+        
+        <h2>In the Event of a Breach</h2>
+        <p>In the event of a breach or hack that concerns your personal data, we'll notify the affected people within 3 days (72 hours) at their last known email address, i.e., the one we have on file. We'll also notify the appropriate regulators.</p>
+        
+        <h2>Erasing Your Data</h2>
+        <p>In most cases, you can erase your data yourself through our self-serve event portal in the "My Account" section. If you want to request that we erase your data for you, you may submit a request to ask@happyteam.co.in, and we'll permanently erase your personal data. The only exception to this is your financial transaction history (if any), which we need to keep for financial and tax reporting purposes.</p>
+        
+        <h2>Where is Your Data Stored?</h2>
+        <p>We store all of your information records and transaction history on database servers located in India.</p>
+        
+        <h2>What About Cookies?</h2>
+        <p>To obtain information about cookies, please see our Cookie Policy page.</p>
+        
+        <h2>How Do I Get More Information?</h2>
+        <p>Our staff will be happy to answer any questions you may have about your personal information. If you would like more information about our policies, or you would like to see exactly what personal information we have about you in our records, or you wish to register a complaint, please contact:</p>
+        
+        <p>Name: Vishnu Kamaliya<br>
+        Company: Happy Team Event Management<br>
+        Phone: 9662695956<br>
+        Email: ask@happyteam.co.in</p>
+    </div>
+    <!-- Terms of service end -->
+    
+    
     <!-- Subscribe Section Two -->
     <section class="subscribe-section-two">
         <div class="auto-container">
             <div class="content-box">
                 <div class="sec-title text-center light">
-                    <span class="sub-title-get">Get The Latest Updates</span>
+                    <span class="sub-title">Get The Latest Updates</span>
                     <h2>Signup For Newsletter</h2>
                     <div class="divider"></div>
                 </div>
@@ -406,7 +451,7 @@
     <!--End Subscribe Section Two -->
 
     <!-- Main Footer -->
-   <footer class="main-footer style-three">
+     <footer class="main-footer style-three">
         <!--Widgets Section-->
         <div class="widgets-section">
             <div class="auto-container">
@@ -474,7 +519,7 @@
                                             <li>
                                                 <i class="icon flaticon-location"></i>
                                                 <div class="text">
-                                                    A-838 Sun Westbank,Ahmedabad
+                                                    A-838 sun westbank.Ahmedabad
                                                     <strong>Address</strong>
                                                 </div>
                                             </li>                                            
@@ -496,7 +541,6 @@
                                         </ul>
 
                                         <ul class="social-icon-two">
-                                           
                                             <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
 
                                             <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
@@ -516,7 +560,7 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="contact.php">Happy Team</a></div>
+            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="gallery.php">Happy Team</a></div>
         </div>
     </footer>
     <!--End Main Footer -->
@@ -527,6 +571,7 @@
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
 
 <!-- Color Palate -->
 <!--<div class="color-palate">-->
@@ -544,12 +589,12 @@
 <!--    <a href="#" class="purchase-btn">Purchase now</a>-->
 <!--</div><!-- End Color Switcher -->-->
 
-
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.bootstrap-touchspin.js"></script>
 <script src="js/jquery.countdown.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/owl.js"></script>
@@ -557,7 +602,8 @@
 <script src="js/script.js"></script>
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
+ 
 </body>
 
-<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:44 GMT -->
 </html>

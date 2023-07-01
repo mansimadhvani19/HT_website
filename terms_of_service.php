@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:44 GMT -->
 <head>
 <meta charset="utf-8">
-<title>Contact</title>
+<title>Terms of Service</title>
+
+
 <!-- Stylesheets -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -20,6 +22,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+<style>
+  ol.centered {
+    text-align: justify;
+    margin: auto;
+    max-width: 600px;
+    padding: 0;
+  }
+  ol.centered li {
+    counter-increment: item;
+    margin-bottom: 1em;
+  }
+
+  ol.centered li::before {
+    content: counter(item) ". ";
+    font-weight: bold;
+  }
+</style>
 </head>
 
 <body>
@@ -30,6 +50,7 @@
     <div class="preloader"></div>
 
     <!-- Main Header-->
+     <!-- Main Header-->
     <header class="main-header header-style-two">
 
         <!-- Header top -->
@@ -38,7 +59,7 @@
         <!--        <div class="inner-container">-->
         <!--            <div class="top-left">-->
         <!--                <ul class="contact-list-two">-->
-        <!--                  <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
+        <!--                    <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
         <!--                    <li><strong>Timeing</strong>Monday - Saturday 10am - 7pm </li>-->
         <!--                </ul>-->
         <!--            </div>-->
@@ -51,7 +72,7 @@
         
         <!--                    <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>-->
         
-        <!--                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>-->
+        <!--                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>-->
         <!--                </ul>-->
         <!--            </div>-->
         <!--        </div>-->
@@ -72,7 +93,7 @@
                     <div class="nav-outer">
 
                         <!-- Main Menu -->
-                        <nav class="main-menu navbar-expand-md">
+                            <nav class="main-menu navbar-expand-md">
 
                             <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 
@@ -82,7 +103,7 @@
 
                                     </li>
 
-                                    <li class="dropdown"><a href="about.php">About</a>
+                                    <li class="current dropdown"><a href="about.php">About</a>
 
                                     </li>
 
@@ -98,22 +119,24 @@
 
                                     <li class="dropdown"><a href="media.php">Media</a>
                                     </li>
-                                    <li cass="current dropdown "><a href="contact.php">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
 
                                 </ul>
 
                             </div>
 
                         </nav>
+
+                        
                         <!-- Main Menu End-->
                         <div class="outer-box clearfix">
                             <!-- Search Btn -->
                             <!--<div class="search-box-btn search-btn search-box-outer"><span class="icon fa fa-search"></span></div>-->
                             
                             <!-- Quote Btn -->
-                            <div class="btn-box">
-                                <a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>
-                            </div>
+                            <!--<div class="btn-box">-->
+                            <!--    <a href="index.php" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>-->
+                            <!--</div>-->
                             
                             <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
                             <div class="top-right">
@@ -178,14 +201,14 @@
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
+                    <div class="nav-logo"><a href="index-2.php"><img src="images/images/CV RFGBFV.png.png" alt="" title=""></a></div>
                     <div class="close-btn"><i class="icon flaticon-close"></i></div>
                 </div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
 
                 <ul class="contact-list-one">
-                     <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
+                 <li><i class="flaticon-location"></i>A-838 sun westbank.Ahmedabad<strong>Address</strong></li>
 
                 <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 6pm <strong>Timeing</strong></li>
 
@@ -199,7 +222,7 @@
 
                     <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
 
-                    <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </nav>
         </div><!-- End Mobile Menu -->
@@ -217,6 +240,7 @@
         <!-- End Header Search -->
 
     </header>
+    <!--End Main Header -->
     <!--End Main Header -->
 
     <!-- Hidden bar back drop -->
@@ -252,140 +276,63 @@
             </div>
 
             <ul class="contact-list-one">
-                <li><i class="flaticon-location"></i>A-838 sun westbank.ahemdavad<strong>Address</strong></li>
-
-                <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 7pm <strong>Timeing</strong></li>
-
+                <li><i class="flaticon-location"></i>A-838 Sun Westbank,Ahmedabad <strong>Address</strong></li>
+                <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 10am - 6pm <strong>Timing</strong></li>
                 <li><i class="flaticon-email-1"></i> <a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a> <strong>Mail to us</strong></li>
             </ul>
         </div>
     </section>
     <!--End Hidden Bar -->
-
     <!--Page Title-->
-    <section class="page-title" style="background-image: url(./images/1-Copy.jpg);">
+    <section class="page-title" style="background-image: url(images/background/11.jpg);">
         <div class="anim-icons full-width">
             <span class="icon icon-bull-eye"></span>
             <span class="icon icon-dotted-circle"></span>
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>Contact</h1>
+                <h1>Terms of Service</h1>
                 <ul class="page-breadcrumb">
                     <li><a href="index.php">Home</a></li>
-                    <li>Contact</li>
+                    <li>Terms of service</li>
                 </ul> 
             </div>
         </div>
     </section>
     <!--End Page Title-->
+    
+    <!-- Terms of service start -->
 
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">GET IN TOUCH</span>
-                <h2>If Contact With Us Send Detail</h2>
-                <span class="divider"></span>
-            </div>
-
-            <div class="contact-form">
-                <form method="post" action="contact_handler.php" id="contact-form">
-                    <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="name" placeholder="Name" required="">
-                                <span class="icon fa fa-user"></span>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="email" name="email" placeholder="Email" required="">
-                                <span class="icon fa fa-envelope"></span>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="phone" placeholder="Phone" required="">
-                                <span class="icon fa fa-phone"></span>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                            <div class="input-outer">
-                                <input type="text" name="subject" placeholder="Subject" required="">
-                                <span class="icon fa fa-pencil-alt"></span>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                            <textarea name="message" placeholder="Message"></textarea>
-                        </div>
-                        
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group text-center">
-                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Submit Now</span></button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!--End Contact Page Section -->
-
-     <!-- Map Section -->
-    <section class="map-section">
-        <div class="auto-container">
-            <div class="row clearfix">
-                <div class="contact-column col-lg-5 col-md-12 col-sm-12 order-2">
-                    <div class="inner-column">
-                        <div class="sec-title">
-                            <span class="sub-title">QUICK CONTACT</span>
-                            <h2>Need Help? Contact Us</h2>
-                            <span class="divider"></span>
-                            <div class="text">Available to our business customers 24 hours a day.</div>
-                        </div>
-                        <ul class="contact-info">
-                            <li>
-                                <span class="icon fa fa-map-marker-alt"></span> 
-                                <h4>Our Location:</h4>
-                                <p>A-838 sun westbank,Ahmedabad</p>
-                            </li>
-
-                            <li>
-                                <span class="icon fa fa-phone-volume"></span> 
-                                <h4>24/7 Hotline:</h4>
-                                <p>+91 9662695956/079-46022913</p>
-                            </li>
-
-                            <li>
-                                <span class="icon fa fa-envelope"></span> 
-                                <h4>Email:</h4>
-                                <p><a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Form Column -->
-                <div class="map-column col-lg-7 col-md-12 col-sm-12">
-                     <!--Map Outer-->
-                    <div class="map-outer">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8017434483586!2d72.56835041079287!3d23.03105051592506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85eb1c23db1d%3A0x9ae71e556ff4a3!2sThe%20Address%20Sun%20Westbank%20Ashram%20Road%20Ahmedabad!5e0!3m2!1sen!2sin!4v1685359878400!5m2!1sen!2sin" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Map Section -->
-
+    <ol class="centered">
+  <li>Please choose the event category carefully, confirmed registrations are non-refundable, non-transferable, and cannot be modified.</li>
+  <li>Provide us with a secure email ID/mobile no that you can access regularly since this will be our primary means of communication during the run-up to the event.</li>
+  <li>Users of email services that offer filtering/blocking of messages from unknown email addresses should add this email id <a href="mailto:support.abd@mahamarathon.com">support.abd@mahamarathon.com</a> to their address list.</li>
+  <li>We will be sending regular updates to the Mobile number you have provided in the registration form; this should not be treated as spam, and you shall not take any action against our bulk SMS service provider.</li>
+  <li>Any notice sent to the email address registered with the organizers shall be deemed as received by the runners.</li>
+  <li>Please fill out only those fields that are necessary for mailing purposes. Do not provide redundant data in multiple fields (i.e., do not list the same data for city, province, and country), as this will only complicate our ability to contact you if necessary.</li>
+  <li>You are aware that running long-distance running is an extreme sport and can be injurious to the body and health. You take full responsibility for participating in the MAHAMARATHON 2021-22 event and do not hold the organizing committee or any of its members or entities responsible for any injury or accident.</li>
+  <li>You shall consult your physician and undergo a complete medical examination to assess your suitability to participate in the event.</li>
+  <li>You also assume all risks associated with participating in this event including, but not limited to, falls, contact with other participants, the effects of the weather, including high heat or humidity, traffic and the condition of the road, arson or terrorist threats, and all other risks associated with a public event.</li>
+  <li>You agree that MAHAMARATHON 2021-22 shall not be liable for any loss, damage, illness, or injury that might occur as a result of your participation in the event.</li>
+  <li>You agree to abide by the instructions provided by the organizers from time to time in the best interest of your health and event safety.</li>
+  <li>You also agree to stop running if instructed by the Race director or the medical staff or by the aid station volunteers.</li>
+  <li>You confirm that your name and media recordings taken during your participation may be used to publicize the event.</li>
+  <li>You may acknowledge and agree that your personal information can be stored and used by MAHAMARATHON 2021-22 or any other company in connection with the organization, promotion, and administration of the event and for the compilation of statistical information.</li>
+  <li>You confirm that, in the event of adverse weather conditions, major incidents or threats on the day, any of the force majeure restrictions by authority, the organizers reserve the right to stop/cancel/postpone the event. You understand that confirmed registrations and merchandise orders are non-refundable, non-transferable, and cannot be modified. The organizers reserve the right to reject any application without providing reasons. Any amount collected from rejected applications alone will be refunded in full (excluding bank charges wherever applicable).</li>
+  <li>Runners are recommended to stay off the course beyond the cut-off time considering the safety and traffic regulations.</li>
+  <li>For any reason, if you cannot turn up on race day, no refund of any form will be given.</li>
+  <li>If this registration is being made on behalf of a minor, I confirm that I am the parent/guardian of the child and that he/she has my permission to take part in the event. I further concur that all the above rules shall apply to him/her as if he were a major.</li>
+  <li>Participants must personally appear for collecting the running Bibs. Bibs can be distributed in-absentee with the written consent of the registered runners.</li>
+</ol>
+    <!-- Terms of service end -->
+    
+    
     <!-- Subscribe Section Two -->
     <section class="subscribe-section-two">
         <div class="auto-container">
             <div class="content-box">
                 <div class="sec-title text-center light">
-                    <span class="sub-title-get">Get The Latest Updates</span>
+                    <span class="sub-title">Get The Latest Updates</span>
                     <h2>Signup For Newsletter</h2>
                     <div class="divider"></div>
                 </div>
@@ -406,7 +353,7 @@
     <!--End Subscribe Section Two -->
 
     <!-- Main Footer -->
-   <footer class="main-footer style-three">
+     <footer class="main-footer style-three">
         <!--Widgets Section-->
         <div class="widgets-section">
             <div class="auto-container">
@@ -474,7 +421,7 @@
                                             <li>
                                                 <i class="icon flaticon-location"></i>
                                                 <div class="text">
-                                                    A-838 Sun Westbank,Ahmedabad
+                                                    A-838 sun westbank.Ahmedabad
                                                     <strong>Address</strong>
                                                 </div>
                                             </li>                                            
@@ -496,7 +443,6 @@
                                         </ul>
 
                                         <ul class="social-icon-two">
-                                           
                                             <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
 
                                             <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
@@ -516,7 +462,7 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="contact.php">Happy Team</a></div>
+            <div class="copyright-text">Copyright © 2023 All Rights Reserved by <a href="gallery.php">Happy Team</a></div>
         </div>
     </footer>
     <!--End Main Footer -->
@@ -527,6 +473,7 @@
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
 
 <!-- Color Palate -->
 <!--<div class="color-palate">-->
@@ -544,12 +491,12 @@
 <!--    <a href="#" class="purchase-btn">Purchase now</a>-->
 <!--</div><!-- End Color Switcher -->-->
 
-
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.bootstrap-touchspin.js"></script>
 <script src="js/jquery.countdown.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/owl.js"></script>
@@ -557,7 +504,8 @@
 <script src="js/script.js"></script>
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
+ 
 </body>
 
-<!-- Mirrored from themecraze.net/html/volia/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:31 GMT -->
+<!-- Mirrored from themecraze.net/html/volia/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:44 GMT -->
 </html>

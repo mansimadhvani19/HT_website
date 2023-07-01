@@ -391,7 +391,8 @@
                         <!--<div class="time-counter-two animate-4"><div class="time-countdown" data-countdown="06/11/2023"></div></div>-->
 
                         <!-- <div class="btn-box animate-5"><a href="https://allevents.in/ahmedabad/green-run-5km-10km/80001051957598" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div> -->
-                        <div class="btn-box animate-5"><a href="event_registration.php><span class="btn-title">Book Now</span></a></div>
+                        <div class="btn-box animate-5"><a href="event_registration.php" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                        <!-- <div class="btn-box animate-5"><a href="event_registration.php"><span class="btn-title">Book Now</span></a></div> -->
 
                     </div>  
 
@@ -1506,9 +1507,10 @@
 
                     <ul class="footer-nav">
 
-                       <li><a href="faq.php">Terms of Service</a></li> 
+                       <li><a href="terms_of_service.php">Terms of Service</a></li> 
 
-                       <li><a href="#">Privacy Policy</a></li> 
+                       <li><a href="privacy_policy.php">Privacy Policy</a></li> 
+                       <li><a href="refund_policy.php">Refund Policy</a></li> 
 
                     </ul>
 

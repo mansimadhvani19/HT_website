@@ -272,198 +272,63 @@
         </div>
         <div class="auto-container">
             <div class="title-outer">
-                <h1>Login</h1>
+                <h1>Registration</h1>
                 <ul class="page-breadcrumb">
                     <li><a href="index.php">Home</a></li>
-                    <li>Login Now</li>
+                    <li>Register Now</li>
                 </ul> 
             </div>
         </div>
     </section>
     <!--End Page Title-->
-<!-- Event registration form -->
-    <!-- <section class="register-section">
-        <div class="auto-container">
-            <div class="row clearfix"> -->
-                
-                <!--Form Column-->
-                 <!-- <div class="form-column column col-lg-6 col-md-12 col-sm-12">
-                
-                    <div class="sec-title">
-                        <h2>Login Now</h2>
-                        <div class="separate"></div>
-                    </div> -->
-                    
-                    <!--Login Form-->
-                            <!-- <div class="styled-form login-form">
-                                <form method="post" action="index.php">
-                                <div class="sec-title">
-                                <h6>Personal Details</h6>
-                                <div class="separate"></div>
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="name" value="" placeholder="Enter your Name *">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="phone" value="" placeholder="Enter your phone *">
-                            </div> -->
-                            
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="email" value="" placeholder="Enter your Email ID*">
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="text" name="blood group" value="" placeholder="Enter your blood group*">
-                            </div>
-                            <div class="styled-form login-form">
-                                <form method="post" action="index.php">
-                                <div class="sec-title">
-                                <h6>Address</h6>
-                                <div class="separate"></div>
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                <input type="text" name="address_line1" value="" placeholder="Address Line 1*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="address_line2" value="" placeholder="Address Line 2*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="city" value="" placeholder="City*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="state" value="" placeholder="State*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="country" value="" placeholder="Country*">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="pin_code" value="" placeholder="PIN Code*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="text" name="tshirt" value="" placeholder="Enter your t-shirt size*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="text" name="gender" value="" placeholder="Enter your gender*">
-                            </div> -->
-
-                            <!-- <div class="clearfix">
-                                <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Login Now</span></button>
-                                </div>
-                                <div class="form-group social-links-two pull-right">
-                                    Or login with 
-                                    <a href="#" class="img-circle facebook"><span class="fab fa-facebook-f"></span></a> 
-                                    <a href="#" class="img-circle twitter"><span class="fab fa-twitter"></span></a> 
-                                    <a href="#" class="img-circle google-plus"><span class="fab fa-google-plus"></span></a>
-                                </div>
-                            </div> -->
-                            
-                            <!-- <div class="clearfix">
-                                <div class="pull-left">
-                                    <input type="checkbox" id="remember-me"><label class="remember-me" for="remember-me">&nbsp; Remember Me</label>
-                                </div>
-                            </div> -->
-                            
-                        <!-- </form>
-                    </div>
-                    
-                </div> -->
-                
-                <!--Form Column -->
-                <!-- <div class="form-column column col-lg-6 col-md-12 col-sm-12">
-                
-                    <div class="sec-title">
-                        <h2>Register Here</h2>
-                        <div class="separate"></div>
-                    </div> -->
-                    
-                    <!-- Login Form -->
-                    <!-- <div class="styled-form register-form">
-                        <form method="post" action="https://themecraze.net/html/volia/index.php">
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="email" value="" placeholder="Enter your Email ID*">
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Your Name *">
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Emai Address*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
-                            </div>
-                            <div class="clearfix">
-                                <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Register here</span></button>
-                                </div>
-                                <div class="form-group submit-text pull-right">
-                                    * You must be a free registered to submit content.
-                                </div>
-                            </div>
-                            
-                        </form>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </section> -->
 
     <!-- Register Section-->
     <section class="register-section">
         <div class="auto-container">
-            <div class="row clearfix">
-                
-                <div class="sec-title">
-                    <h2>Event Registration</h2>
-                    <div class="separate"></div>
-                </div>
-                <!--Form Column-->
-                <div class="form-column column col-lg-6 col-md-12 col-sm-12">
-                
+            <form id="paymentForm" action="event_handler.php" method="POST">
+                <div class="row clearfix">
+                    <div class="sec-title">
+                        <h2>Event Registration</h2>
+                        <div class="separate"></div>
+                        <?php
+                                // session_start();
+                                $message ="";
+                                if(isset($_GET['err'])){
+                                    $message = $_GET['err'];
+                                    echo '<div class = "alert alert-danger">'.$message.'</div>';
+                                }
+                            ?>
+                    </div>
+                    <!--Form Column-->
+                    <div class="form-column column col-lg-6 col-md-12 col-sm-12">
                     
-                    <!--Login Form-->
-                    <div class="styled-form address-form">
-                        <form method="post" action="index.php">
-                            <div class="sec-title">
-                                <h6>Personal Details</h6>
-                                <div class="separate"></div>
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                <input type="text" name="username" value="" placeholder="Enter your Name *">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                <input type="email" name="useremil" value="" placeholder="Enter your Email ID*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-phone"></span></span>
-                                <input type="text" name="phone" value="" placeholder="Enter phone number*">
-                            </div>
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-heart"></span></span>
-                                <input type="text" name="blood group" value="" placeholder="Enter Blood Group*">
-                            </div> -->
-                            <div class="form-column">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12">
-                                        <div class="add-form address-form">
-                                            <form method="post" action="">
+                        
+                        <!--Login Form-->
+                        <div class="styled-form address-form">
+                            <form method="post" action="">
+                                <div class="sec-title">
+                                    <h6>Personal Details</h6>
+                                    <div class="separate"></div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-user"></span></span>
+                                    <input type="text" name="name" value="" placeholder="Enter your Name *" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-envelope"></span></span>
+                                    <input type="email" name="email" value="" placeholder="Enter your Email ID*" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-phone"></span></span>
+                                    <input type="text" name="phone" value="" placeholder="Enter phone number*" required>
+                                </div>
+                                <div class="form-column">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-heart"></span></span>
-                                                    <select name="blood_group">
+                                                    <select name="blood_group" required>
                                                         <option value="">Select blood group*</option>
                                                         <option value="A+">A+</option>
                                                         <option value="A-">A-</option>
@@ -475,183 +340,178 @@
                                                         <option value="O-">O-</option>
                                                     </select>
                                                 </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12">
-                                        <div class="add-form address-form">
-                                            <form method="post" action="">
-                                            <div class="form-group">
-                                                <span class="adon-icon"><span class="fa fa-venus-mars"></span></span>
-                                                <select name="gender">
-                                                    <option value="">Select gender*</option>
-                                                    <option value="male">Male</option>
-                                                    <option value="female">Female</option>
-                                                    <option value="other">Other</option>
-                                                </select>
                                             </div>
-                                            </form>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="add-form">
+                                                <div class="form-group">
+                                                    <span class="adon-icon"><span class="fa fa-venus-mars"></span></span>
+                                                    <select name="gender" required>
+                                                        <option value="">Select gender*</option>
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-tshirt"></span></span>
-                                <input type="text" name="tshirt" value="" placeholder="Enter t-shirt size*">
-                            </div>
-                            <div class="sec-title">
-                                <h6>Address</h6>
-                                <div class="separate"></div>
-                            </div>
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                <input type="text" name="address" value="" placeholder="Address line 1*">
-                            </div> -->
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                <input type="text" name="address" value="" placeholder="Address line 2*">
-                            </div> -->
-                            <!-- address columns -->
-                            <div class="form-column">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12">
-                                        <div class="add-form address-form">
-                                            <form method="post" action="">
+
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-tshirt"></span></span>
+                                    <input type="text" name="tshirt" value="" placeholder="Enter t-shirt size*" required>
+                                </div>
+
+                                <div class="sec-title">
+                                    <h6>Address</h6>
+                                    <div class="separate"></div>
+                                </div>
+
+                                <div class="form-column">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="address" value="" placeholder="Address line 1*">
+                                                    <input type="text" name="address1" value="" placeholder="Address line 1*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="city" value="" placeholder="City*">
+                                                    <input type="text" name="city" value="" placeholder="City*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="state" value="" placeholder="State*">
+                                                    <input type="text" name="state" value="" placeholder="State*" required>
                                                 </div>
-                                            </form>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-12">
-                                        <div class="add-form a-form">
-                                            <form method="post" action="">
+                                        <div class="col-lg-6 col-md-12 col-sm-12">
+                                            <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="address" value="" placeholder="Address line 2*">
+                                                    <input type="text" name="address2" value="" placeholder="Address line 2*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-globe"></span></span>
-                                                    <input type="text" name="country" value="" placeholder="Country*">
+                                                    <input type="text" name="country" value="" placeholder="Country*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-pin"></span></span>
-                                                    <input type="text" name="pin_code" value="" placeholder="PIN Code*">
+                                                    <input type="text" name="pin_code" value="" placeholder="PIN Code*" required>
                                                 </div>
-                                            </form>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                             </div>
-                            
-                            <!-- <div class="sec-title">
-                                <h6>Emtergency contact details</h6>
-                                <div class="separate"></div>
-                            </div> -->
-
-                            
-                            <!-- <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-unlock-alt"></span></span>
-                                <input type="password" name="userpassword" value="" placeholder="Enter Password">
-                            </div> -->
-                            <!-- <div class="clearfix">
-                                <div class="form-group pull-left">
-                                    <button type="button" class="theme-btn btn-style-one"><span class="btn-title">Login Now</span></button>
-                                </div>
-                                <div class="form-group social-links-two pull-right">
-                                    Or login with 
-                                    <a href="#" class="img-circle facebook"><span class="fab fa-facebook-f"></span></a> 
-                                    <a href="#" class="img-circle twitter"><span class="fab fa-twitter"></span></a> 
-                                    <a href="#" class="img-circle google-plus"><span class="fab fa-google-plus"></span></a>
-                                </div>
-                            </div> -->
-                            
-                            <!-- <div class="clearfix">
-                                <div class="pull-left">
-                                    <input type="checkbox" id="remember-me"><label class="remember-me" for="remember-me">&nbsp; Remember Me</label>
-                                </div>
-                            </div> -->
-                            
+                            <!-- Closing tag for the main form -->
                         </form>
                     </div>
-                    
-                </div>
-                
-                <!--Form Column-->
-                <div class="form-column column col-lg-6 col-md-12 col-sm-12">
-                
-                    <!-- <div class="sec-title">
-                        <h2>Register Here</h2>
-                        <div class="separate"></div>
-                    </div> -->
-                    <div class="sec-title">
-                        <h6>Emergency contact details</h6>
-                        <div class="separate"></div>
+                        
                     </div>
                     
-                    <!-- Login Form-->
-                    <div class="styled-form register-form">
-                        <form method="post" action="https://themecraze.net/html/volia/index.php">
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-user-plus"></span></span>
-                                <input type="text" name="emergeny_name" value="" placeholder="Emergency contact name *">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-phone"></span></span>
-                                <input type="text" name="phone" value="" placeholder="Emergency contact number*">
-                            </div>
-                            <div class="sec-title">
-                                <h6>Event details</h6>
-                                <div class="separate"></div>
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-info-circle"></span></span>
-                                <input type="text" name="category_km" value="" placeholder="Enter category*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-building"></span></span>
-                                <input type="text" name="organizer_name" value="" placeholder="Enter organizer*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-refer-by"></span></span>
-                                <input type="text" name="reference" value="" placeholder="Referred by*">
-                            </div>
-                            <div class="form-group">
-                                <span class="adon-icon"><span class="fa fa-ticket-alt"></span></span>
-                                Have a discount coupon?
-                                <input type="text" name="discount_code" value="" placeholder="Enter code*">
-                            </div>
+                    <!--Form Column-->
+                    <div class="form-column column col-lg-6 col-md-12 col-sm-12">
+                        <div class="sec-title">
+                            <h6>Emergency contact details</h6>
+                            <div class="separate"></div>
+                        </div>
 
-                            <div class="clearfix">
-                                <div class="form-group pull-left">
-                                    <a href="payment.php">
-                                        <button type="button" class="theme-btn btn-style-one">
-                                            <span class="btn-title">Pay now</span>
-                                        </button>
-                                    </a>
+                        <div class="styled-form register-form">
+                            <form method="post" action="">
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-user-plus"></span></span>
+                                    <input type="text" name="emergeny_name" value="" placeholder="Emergency contact name *" required>
                                 </div>
-                            </div>
-                                <!-- <div class="form-group submit-text pull-right">
-                                    * You must be a free registered to submit content.
-                                </div> -->
-                            <!-- </div> -->
-                            
-                        </form>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-phone"></span></span>
+                                    <input type="text" name="emergency_phone" value="" placeholder="Emergency contact number*" required>
+                                </div>
+                                <div class="sec-title">
+                                    <h6>Event details</h6>
+                                    <div class="separate"></div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-info-circle"></span></span>
+                                    <input type="text" name="category_km" value="" placeholder="Enter category*" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-building"></span></span>
+                                    <input type="text" name="organizer_name" value="" placeholder="Enter organizer*" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-refer-by"></span></span>
+                                    <input type="text" name="reference" value="" placeholder="Referred by*" required>
+                                </div>
+                                <div class="form-group">
+                                    <span class="adon-icon"><span class="fa fa-ticket-alt"></span></span>
+                                    Have a discount coupon?
+                                    <input type="text" name="discount_code" value="" placeholder="Enter code*">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     
+                    <div class="clearfix">
+                        <div class="form-group pull-left">
+                        <!-- <input type="submit" id="payNowButton" value="Pay Now" disabled> -->
+                            <button type="submit" class="theme-btn btn-style-one" id = 'payNowButton'><span class="btn-title">Pay Now</span></button>
+                        </div>
+                    </div>
+                    
+                    <script>
+
+$(document).ready(function() {
+        // Add event listener to form submission
+        $('form').on('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Perform AJAX request
+            $.ajax({
+                url: 'event_handler.php',
+                type: 'POST',
+                data: $(this).serialize(), // Serialize form data
+                success: function(response) {
+                    // Handle the AJAX response
+                    if (response === 'true') {
+                        // Payment successful, call the PHP file for Razorpay integration
+                        callRazorpayIntegration();
+                    } else {
+                        // Payment unsuccessful or validation failed
+                        // Display an error message or perform necessary actions
+                        alert('Payment failed. Please fill all the required fields.');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    // Handle AJAX errors
+                    console.log(error); // Log the error for debugging
+                    alert('An error occurred. Please try again later.');
+                }
+            });
+        });
+
+        // Function to call the PHP file for Razorpay integration
+        function callRazorpayIntegration() {
+            // Perform AJAX request to the PHP file
+            $.ajax({
+                url: 'payment.php', // Replace with the correct URL of your PHP file
+                type: 'POST',
+                success: function(response) {
+                    // Handle the AJAX response from Razorpay integration
+                    // You can redirect the user to the payment page or perform necessary actions
+                    window.location.href = 'payment.php'; // Example: Redirect to payment page
+                },
+                error: function(xhr, status, error) {
+                    // Handle AJAX errors
+                    console.log(error); // Log the error for debugging
+                    alert('An error occurred during Razorpay integration. Please try again later.');
+                }
+            });
+        }
+    });
+                    </script>
                 </div>
-                
-            </div>
+            </form>
         </div>
     </section>
     <!--End Register Section -->
@@ -833,6 +693,7 @@
 <script src="js/script.js"></script>
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
+ 
 </body>
 
 <!-- Mirrored from themecraze.net/html/volia/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 May 2023 09:02:44 GMT -->
