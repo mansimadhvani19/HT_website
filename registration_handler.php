@@ -36,7 +36,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
                 mysqli_stmt_store_result($stmt);
                 if(mysqli_stmt_num_rows($stmt) == 1)
                 {
+
                     $email_err = "This email is already taken"; 
+                    header("Location: login.php?err=" . urlencode($email_err));
+            exit;
                 }
                 else{
                     $email = trim($_POST['email']);
@@ -82,32 +85,36 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     else{
         $name = trim($_POST['name']);
     }
-    // if(empty(trim($_POST['email']))){
-    //     $email_err = "Email cannot be empty";
-    // }
-    // else{
-    //     $email = trim($_POST['email']);
-    // }
-    // if(empty(trim($_POST['phone']))){
-    //     $phone_err = "Phone cannot be empty";
-    // }
-    // else{
-    //     $phone = trim($_POST['phone']);
-    // }
-
+    
     // If there were no errors, go ahead and insert into the database
     if(empty($email_err) && empty($password_err) && empty($confirm_password_err))
     {
+        // $password = $_POST['password'];
+        // echo $password;
+        // // $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+        // // echo "Hashed password is". $hashedPassword . "<br>";
+        // $sql = "INSERT INTO registration (name, email, password) VALUES ('$name', '$email', '$password')";
+        // echo $sql;
+        // if (mysqli_query($conn, $sql)) {
+        //     echo 'Registration successful!';
+        // } else {
+        //     echo "Error";
+        //     echo 'Error: ' . mysqli_error($conn);
+        // }
+        
         $sql = "INSERT INTO HappyTeam.registration (name, email, password) VALUES (?, ?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
         if ($stmt)
         {
+
             mysqli_stmt_bind_param($stmt, "sss", $param_name, $param_email, $param_password);
 
             // Set these parameters
             $param_name = $name;
             $param_email = $email;
-            $param_password = password_hash($password, PASSWORD_DEFAULT);
+            // $param_password = password_hash($password, PASSWORD_DEFAULT);
+            $param_password = $_POST['password'];
+
 
             // Try to execute the query
             if (mysqli_stmt_execute($stmt))

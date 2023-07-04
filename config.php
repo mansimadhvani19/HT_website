@@ -9,10 +9,10 @@
     $DB_NAME = 'HappyTeam';
 
 
-    $conn = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
+    // $conn = mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
 
-    if(!$conn){
-        die("Connection to the database failed die to ". mysqli_connect_error());
-    }
+    // if(!$conn){
+    //     die("Connection to the database failed die to ". mysqli_connect_error());
+    // }
 
 ?>
