@@ -20,6 +20,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<script>
+    function pay_now(event) {
+        event.preventDefault();
+        var form = document.getElementById('paymentForm');
+        var requiredFields = form.querySelectorAll('input[required], select[required]');
+        var isFormValid = true;
+
+        for (var i = 0; i < requiredFields.length; i++) {
+            if (!requiredFields[i].value) {
+                isFormValid = false;
+                break;
+            }
+        }
+
+        if (isFormValid) {
+            
+            // var name = jQuery('#name').val();
+            var amt = 1;
+            // var event = jQuery('#category_km').val();
+            var name = jQuery('#name').val();
+            var email = jQuery('#email').val();
+            var phone = jQuery('#phone').val();
+            var blood_group = jQuery('#blood_group').val();
+            var gender = jQuery('#gender').val();
+            var tshirt_size = jQuery('#tshirt_size').val();
+            var address1 = jQuery('#address1').val();
+            var address2 = jQuery('#address2').val();
+            var city = jQuery('#city').val();
+            var state = jQuery('#state').val();
+            var country = jQuery('#country').val();
+            var pin_code = jQuery('#pin_code').val();
+            var category_km = jQuery('#category_km').val();
+            var emergency_contact_name= jQuery('#emergency_contact_name').val();
+            var emergency_contact_number= jQuery('#emergency_contact_number').val();
+            var organizer_name = jQuery('#organizer_name').val();
+            var reference = jQuery('#reference').val();
+            var discount_code = jQuery('#discount_code').val() || null;
+
+            jQuery.ajax({
+                type:'post',
+                url:'payment_process.php',
+                data:"&name="+name+"&email="+email+"&phone="+phone+"&blood_group="+blood_group+"&gender="+gender+"&tshirt_size="+tshirt_size+"&address1="+address1+"&address2="+address2+"&city="+city+"&state="+state+"&country="+country+"&pin_code="+pin_code+"&category_km="+category_km+"&emergency_contact_name="+emergency_contact_name+"&emergency_contact_number="+emergency_contact_number+"&organizer_name="+organizer_name+"&reference="+reference+"&discount_code="+discount_code,
+                success:function(result){
+                    var options = {
+                            "key": "rzp_live_oxEIUm87gzZfhu", 
+                            "amount": amt*100, 
+                            "currency": "INR",
+                            "name": "Happy Team",
+                            "description": event,
+                            "image": "https://happyteam.co.in/images/CV%20RFGBFV.png",
+                            "handler": function (response){
+                            jQuery.ajax({
+                                type:'post',
+                                url:'payment_process.php',
+                                data:"payment_id="+response.razorpay_payment_id,
+                                success:function(result){
+                                    window.location.href="payment_success.php";
+                                }
+                            });
+                            }
+                        };
+                        var rzp1 = new Razorpay(options);
+                        rzp1.open();
+                }
+            });
+
+        }
+    }
+</script>
 </head>
 
 <body>
@@ -31,195 +104,7 @@
 
     <!-- Main Header-->
      <!-- Main Header-->
-    <header class="main-header header-style-two">
-
-        <!-- Header top -->
-        <!--<div class="header-top">-->
-        <!--    <div class="auto-container">-->
-        <!--        <div class="inner-container">-->
-        <!--            <div class="top-left">-->
-        <!--                <ul class="contact-list-two">-->
-        <!--                    <li><strong>Address</strong>A-838 sun westbank,ahemdavad </li>-->
-        <!--                    <li><strong>Timeing</strong>Monday - Saturday 10am - 7pm </li>-->
-        <!--                </ul>-->
-        <!--            </div>-->
-
-        <!--            <div class="top-right">-->
-        <!--                <ul class="social-icon-three">-->
-        <!--                    <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>-->
-
-        <!--                    <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>-->
-        
-        <!--                    <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>-->
-        
-        <!--                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>-->
-        <!--                </ul>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-        <!-- End Header Top -->
-        
-        <!-- Header Lower -->
-        <div class="header-lower">
-            <div class="auto-container">    
-                <!-- Main box -->
-                <div class="main-box">
-                    <div class="logo">
-                        <a href="index.php">
-                            <img src="images/CV RFGBFV.png" alt="" title=""/>
-                        </a>
-                    </div>
-                    <div class="nav-outer">
-
-                        <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-md">
-
-                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-
-                                <ul class="navigation clearfix">
-
-                                    <li class=" dropdown"><a href="index.php">Home</a>
-
-                                    </li>
-
-                                    <li class="current dropdown"><a href="about.php">About</a>
-
-                                    </li>
-
-                                    <li class="dropdown "><a href="service.php">Services</a>
-
-                                    </li>
-
-                                    <li class="dropdown"><a href="gallery.php">Gallery</a>
-                                    </li>
-
-                                    <li class="dropdown"><a href="work.php">Work</a>
-                                    </li>
-
-                                    <li class="dropdown"><a href="media.php">Media</a>
-                                    </li>
-                                    <li><a href="contact.php">Contact</a></li>
-
-                                </ul>
-
-                            </div>
-
-                        </nav>
-
-                        
-                        <!-- Main Menu End-->
-                        <div class="outer-box clearfix">
-                            <!-- Search Btn -->
-                            <!--<div class="search-box-btn search-btn search-box-outer"><span class="icon fa fa-search"></span></div>-->
-                            
-                            <!-- Quote Btn -->
-                            <!--<div class="btn-box">-->
-                            <!--    <a href="index.php" class="theme-btn btn-style-one"><span class="btn-title"><i class="flaticon-chair"></i> Book Ticket</span></a>-->
-                            <!--</div>-->
-                            
-                            <button class="nav-toggler"><i class="flaticon flaticon-menu-2"></i></button>
-                            <div class="top-right">
-                                <ul class="social-icon-three">
-                                      <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
-        
-                            <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
-        
-                            <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
-        
-                            <li><a href="https://youtube.com/@HappyTeam.95"><span class="fab fa-youtube"></span></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sticky Header  -->
-        <div class="sticky-header">
-            <div class="auto-container">            
-
-                <div class="main-box">
-                    <div class="logo-box">
-                        <div class="logo"><a href="index-2.php"><img src="images/CV RFGBFV.png" alt="" title=""></a></div>
-                        <div class="upper-right">
-                            <div class="search-box">
-                                <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
-                            </div>
-                            <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><i class="flaticon-menu"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!--Keep This Empty / Menu will come through Javascript-->
-                </div>
-            </div>
-        </div><!-- End Sticky Menu -->
-
-        <!-- Mobile Header -->
-        <div class="mobile-header">
-            <div class="logo"><a href="index-2.php"><img src="images/LOGO765-01.png" alt="" title=""></a></div>
-
-            <!--Nav Box-->
-            <div class="nav-outer clearfix">
-                <div class="outer-box">
-                    <!-- Search Btn -->
-                    <div class="search-box">
-                        <button class="search-btn mobile-search-btn"><i class="flaticon-search-2"></i></button>
-                    </div>
-
-                    <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><i class="flaticon-menu"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            
-            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
-            <nav class="menu-box">
-                <div class="upper-box">
-                    <div class="nav-logo"><a href="index-2.php"><img src="images/images/CV RFGBFV.png.png" alt="" title=""></a></div>
-                    <div class="close-btn"><i class="icon flaticon-close"></i></div>
-                </div>
-
-                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
-
-                <ul class="contact-list-one">
-                 <li><i class="flaticon-location"></i>A-838 sun westbank.Ahmedabad<strong>Address</strong></li>
-
-                <li><i class="flaticon-alarm-clock-1"></i>Monday - Saturday 10am - 6pm <strong>Timeing</strong></li>
-
-                <li><i class="flaticon-email-1"></i> <a href="mailto:ask@happyteam.co.in">ask@happyteam.co.in</a> <strong>Mail to us</strong></li>
-                </ul>
-
-                <ul class="social-links">
-                    <li><a href="https://instagram.com/happyteam95?igshid=MzRlODBiNWFlZA=="><span class="fab fa-instagram"></span></a></li>
-
-                    <li><a href="https://www.facebook.com/2065237537081440/posts/pfbid0JcPLdZC6kXgEQzGGD5sDwfkuCnQqWfKZdgtF4VrgTY2USteVhX694rdSqofJ7SYhl/?mibextid=Nif5oz "><span class="fab fa-facebook-f"></span></a></li>
-
-                    <li><a href="https://wa.me/message/DB7YRHTPF7RQA1"><span class="fab fa-whatsapp"></span></a></li>
-
-                    <li><a href="https://youtube.com/shorts/sbBqhIdrIH0?feature=share"><span class="fab fa-youtube"><span class="fab fa-youtube"></span></a></li>
-                </ul>
-            </nav>
-        </div><!-- End Mobile Menu -->
-
-        <!-- Header Search -->
-        <div class="search-popup">
-            <button class="close-search"><i class="flaticon-close"></i></button>
-            <form method="post" action="https://themecraze.net/html/volia/blog.php">
-                <div class="form-group">
-                    <input type="search" name="search-field" value="" placeholder="Search" required="">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </div>
-            </form>
-        </div>
-        <!-- End Header Search -->
-
-    </header>
+     <?php include 'header.php'; ?>
     <!--End Main Header -->
     <!--End Main Header -->
 
@@ -285,7 +170,7 @@
     <!-- Register Section-->
     <section class="register-section">
         <div class="auto-container">
-            <form id="paymentForm" action="event_handler.php" method="POST">
+            <form id="paymentForm" action="" method="POST" onsubmit="pay_now(event)">
                 <div class="row clearfix">
                     <div class="sec-title">
                         <h2>Event Registration</h2>
@@ -312,15 +197,15 @@
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-user"></span></span>
-                                    <input type="text" name="name" value="" placeholder="Enter your Name *" required>
+                                    <input type="text" name="name" id="name" value="" placeholder="Enter your Name *" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-envelope"></span></span>
-                                    <input type="email" name="email" value="" placeholder="Enter your Email ID*" required>
+                                    <input type="email" name="email" id="email" value="" placeholder="Enter your Email ID*" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-phone"></span></span>
-                                    <input type="text" name="phone" value="" placeholder="Enter phone number*" required>
+                                    <input type="text" name="phone" id="phone" value="" placeholder="Enter phone number*" required>
                                 </div>
                                 <div class="form-column">
                                     <div class="row">
@@ -328,7 +213,7 @@
                                             <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-heart"></span></span>
-                                                    <select name="blood_group" required>
+                                                    <select name="blood_group" id="blood_group" required>
                                                         <option value="">Select blood group*</option>
                                                         <option value="A+">A+</option>
                                                         <option value="A-">A-</option>
@@ -346,7 +231,7 @@
                                             <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-venus-mars"></span></span>
-                                                    <select name="gender" required>
+                                                    <select name="gender" id="gender" required>
                                                         <option value="">Select gender*</option>
                                                         <option value="male">Male</option>
                                                         <option value="female">Female</option>
@@ -360,7 +245,7 @@
 
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-tshirt"></span></span>
-                                    <input type="text" name="tshirt" value="" placeholder="Enter t-shirt size*" required>
+                                    <input type="text" name="tshirt_size" id="tshirt_size" value="" placeholder="Enter t-shirt size*" required>
                                 </div>
 
                                 <div class="sec-title">
@@ -374,31 +259,39 @@
                                             <div class="add-form">
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="address1" value="" placeholder="Address line 1*" required>
+                                                    <input type="text" name="address1" id="address1" value="" placeholder="Address line 1*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
-                                                    <input type="text" name="city" value="" placeholder="City*" required>
+                                                    <input type="text" name="address2" id="address2" value="" placeholder="Address line 2*" required>
                                                 </div>
                                                 <div class="form-group">
+                                                    <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
+                                                    <input type="text" name="city" id="city" value="" placeholder="City*" required>
+                                                </div>
+                                                <!-- <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
                                                     <input type="text" name="state" value="" placeholder="State*" required>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-md-12 col-sm-12">
                                             <div class="add-form">
-                                                <div class="form-group">
+                                                <!-- <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
                                                     <input type="text" name="address2" value="" placeholder="Address line 2*" required>
+                                                </div> -->
+                                                <div class="form-group">
+                                                    <span class="adon-icon"><span class="fa fa-map-marker"></span></span>
+                                                    <input type="text" name="state" id="state" value="" placeholder="State*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-globe"></span></span>
-                                                    <input type="text" name="country" value="" placeholder="Country*" required>
+                                                    <input type="text" name="country" id="country" value="" placeholder="Country*" required>
                                                 </div>
                                                 <div class="form-group">
                                                     <span class="adon-icon"><span class="fa fa-map-pin"></span></span>
-                                                    <input type="text" name="pin_code" value="" placeholder="PIN Code*" required>
+                                                    <input type="text" name="pin_code" id="pin_code" value="" placeholder="PIN Code*" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -421,11 +314,11 @@
                             <form method="post" action="">
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-user-plus"></span></span>
-                                    <input type="text" name="emergeny_name" value="" placeholder="Emergency contact name *" required>
+                                    <input type="text" name="emergency_contact_name" id="emergency_contact_name" value="" placeholder="Emergency contact name *" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-phone"></span></span>
-                                    <input type="text" name="emergency_phone" value="" placeholder="Emergency contact number*" required>
+                                    <input type="text" name="emergency_contact_number" id="emergency_contact_number" value="" placeholder="Emergency contact number*" required>
                                 </div>
                                 <div class="sec-title">
                                     <h6>Event details</h6>
@@ -433,20 +326,20 @@
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-info-circle"></span></span>
-                                    <input type="text" name="category_km" value="" placeholder="Enter category*" required>
+                                    <input type="text" name="category_km" id="category_km" value="" placeholder="Enter category*" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-building"></span></span>
-                                    <input type="text" name="organizer_name" value="" placeholder="Enter organizer*" required>
+                                    <input type="text" name="organizer_name" id="organizer_name" value="" placeholder="Enter organizer*" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-refer-by"></span></span>
-                                    <input type="text" name="reference" value="" placeholder="Referred by*" required>
+                                    <input type="text" name="reference" id="reference" value="" placeholder="Referred by*" required>
                                 </div>
                                 <div class="form-group">
                                     <span class="adon-icon"><span class="fa fa-ticket-alt"></span></span>
                                     Have a discount coupon?
-                                    <input type="text" name="discount_code" value="" placeholder="Enter code*">
+                                    <input type="text" name="discount_code" id="discount_code" value="" placeholder="Enter code">
                                 </div>
                             </form>
                         </div>
@@ -455,61 +348,12 @@
                     <div class="clearfix">
                         <div class="form-group pull-left">
                         <!-- <input type="submit" id="payNowButton" value="Pay Now" disabled> -->
-                            <button type="submit" class="theme-btn btn-style-one" id = 'payNowButton'><span class="btn-title">Pay Now</span></button>
+                        <!-- <button onclick="showPicture()">Enlarge</button> -->
+                            <!-- <img id="bigpic" src="images/razorpay_qr_code.jpg" /> -->
+                            <!-- <input type="button" name="btn" id="btn" value="Pay Now" onclick="pay_now()"/> -->
+                            <button type="submit" class="theme-btn btn-style-one" id = 'payNowButton' onclick="pay_now()"><span class="btn-title">Pay Now</span></button>
                         </div>
-                    </div>
-                    
-                    <script>
-
-$(document).ready(function() {
-        // Add event listener to form submission
-        $('form').on('submit', function(event) {
-            event.preventDefault(); // Prevent default form submission
-
-            // Perform AJAX request
-            $.ajax({
-                url: 'event_handler.php',
-                type: 'POST',
-                data: $(this).serialize(), // Serialize form data
-                success: function(response) {
-                    // Handle the AJAX response
-                    if (response === 'true') {
-                        // Payment successful, call the PHP file for Razorpay integration
-                        callRazorpayIntegration();
-                    } else {
-                        // Payment unsuccessful or validation failed
-                        // Display an error message or perform necessary actions
-                        alert('Payment failed. Please fill all the required fields.');
-                    }
-                },
-                error: function(xhr, status, error) {
-                    // Handle AJAX errors
-                    console.log(error); // Log the error for debugging
-                    alert('An error occurred. Please try again later.');
-                }
-            });
-        });
-
-        // Function to call the PHP file for Razorpay integration
-        function callRazorpayIntegration() {
-            // Perform AJAX request to the PHP file
-            $.ajax({
-                url: 'payment.php', // Replace with the correct URL of your PHP file
-                type: 'POST',
-                success: function(response) {
-                    // Handle the AJAX response from Razorpay integration
-                    // You can redirect the user to the payment page or perform necessary actions
-                    window.location.href = 'payment.php'; // Example: Redirect to payment page
-                },
-                error: function(xhr, status, error) {
-                    // Handle AJAX errors
-                    console.log(error); // Log the error for debugging
-                    alert('An error occurred during Razorpay integration. Please try again later.');
-                }
-            });
-        }
-    });
-                    </script>
+                    </div>                 
                 </div>
             </form>
         </div>
@@ -691,6 +535,10 @@ $(document).ready(function() {
 <script src="js/owl.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
  

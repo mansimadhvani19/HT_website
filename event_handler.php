@@ -221,19 +221,20 @@ else if (empty(trim($_POST['pin_code']))) {
 //     $errors[] = "Emergency contact name or emergency phone cannot be empty";
 // }
 
-else if (empty(trim($_POST['category_km']))) {
-    $errors[] = "Category_km cannot be empty";
-}
+// else if (empty(trim($_POST['category_km']))) {
+//     $errors[] = "Category_km cannot be empty";
+// }
 
-else if (empty(trim($_POST['organizer_name']))) {
-    $errors[] = "Organizer name cannot be empty";
-}
+// else if (empty(trim($_POST['organizer_name']))) {
+//     $errors[] = "Organizer name cannot be empty";
+// }
 
-else if (empty(trim($_POST['reference']))) {
-    $errors[] = "Reference cannot be empty";
-}
+// else if (empty(trim($_POST['reference']))) {
+//     $errors[] = "Reference cannot be empty";
+// }
 
-$discount_code = empty(trim($_POST['discount_code'])) ? null : trim($_POST['discount_code']);
+// $discount_code = empty(trim($_POST['discount_code'])) ? null : trim($_POST['discount_code']);
+$discount_code = "abcd";
 
 if (!empty($errors)) {
     $err = implode(", ", $errors);
@@ -254,58 +255,69 @@ $city = trim($_POST['city']);
 $state = trim($_POST['state']);
 $country = trim($_POST['country']);
 $pin_code = trim($_POST['pin_code']);   
-$emergency_name = trim($_POST['emergency_name']);
-$emergency_number = trim($_POST['emergency_phone']);
-$category = trim($_POST['category_km']);
-$organizer_name = trim($_POST['organizer_name']);
-$reference = trim($_POST['reference']);
+// $emergency_name = trim($_POST['emergency_name']);
+$emergency_name = "emergency_name";
+// $emergency_number = trim($_POST['emergency_phone']);
+$emergency_number = "emergency_phone";
+// $category = trim($_POST['category_km']);
+$category = "5km";
+// $organizer_name = trim($_POST['organizer_name']);
+$organizer_name = "abc";
+// $reference = trim($_POST['reference']);
+$reference = 'reference';
     
 if (empty($err)){
-    echo "true";
+    $flag = "true";
+    echo $flag;
+    header("Location: event_registration.php");
 }
+
     $address = $address1 . ', ' . $address2 . ', ' . $city . ', ' . $state . ', ' . $country . ' - ' . $pin_code;
+    
+
     
     $payment_status = "pending";
 
     require_once "payment.php";
 
-    if ($payment_status == "success"){
-        if(empty($err))
-        {
-            $sql = "INSERT INTO HappyTeam.event_registration (name, email, phone, blood_group, gender, tshirt_size, address, category_km, emergency_contact_name, emergency_contact_number, organizer_name, refer_by, discount_code) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            $stmt = mysqli_prepare($conn, $sql);
-            if ($stmt)
-            {
-                mysqli_stmt_bind_param($stmt, "sssssssssssss", $param_name, $param_email, $param_phone, $param_blood_group, $param_gender, $param_tshirt_size, $param_address, $param_category_km, $param_emergency_name, $param_emergency_number, $param_organizer_name, $param_refer_by, $param_discount_code);
+    
+    // if ($payment_status == "success"){
+    //     if(empty($err))
+    //     {
+    //         $sql = "INSERT INTO HappyTeam.event_registration (name, email, phone, blood_group, gender, tshirt_size, address, category_km, emergency_contact_name, emergency_contact_number, organizer_name, refer_by, discount_code) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    //         $stmt = mysqli_prepare($conn, $sql);
+    //         if ($stmt)
+    //         {
+    //             mysqli_stmt_bind_param($stmt, "sssssssssssss", $param_name, $param_email, $param_phone, $param_blood_group, $param_gender, $param_tshirt_size, $param_address, $param_category_km, $param_emergency_name, $param_emergency_number, $param_organizer_name, $param_refer_by, $param_discount_code);
 
-                // Set these parameters
-                $param_name = $name;
-                $param_email = $email;
-                $param_phone = $phone;
-                $param_blood_group = $blood_group;
-                $param_gender = $gender;
-                $param_tshirt_size = $tshirt;
-                $param_address = $address;
-                $param_category_km = $category;
-                $param_emergency_name = $emergency_name;
-                $param_emergency_number = $emergency_number;
-                $param_organizer_name = $organizer_name;
-                $param_refer_by = $reference;
-                $param_discount_code = $discount_code;
+    //             // Set these parameters
+    //             $param_name = $name;
+    //             $param_email = $email;
+    //             $param_phone = $phone;
+    //             $param_blood_group = $blood_group;
+    //             $param_gender = $gender;
+    //             $param_tshirt_size = $tshirt;
+    //             $param_address = $address;
+    //             $param_category_km = $category;
+    //             $param_emergency_name = $emergency_name;
+    //             $param_emergency_number = $emergency_number;
+    //             $param_organizer_name = $organizer_name;
+    //             $param_refer_by = $reference;
+    //             $param_discount_code = $discount_code;
 
-                // Try to execute the query
-                if (mysqli_stmt_execute($stmt))
-                {
-                    header("location: index.php");
-                }
-                else{
-                    echo "Something went wrong... cannot redirect!";
-                }
-            }
-            mysqli_stmt_close($stmt);
-        }
-        mysqli_close($conn);
-    }
+    //             // Try to execute the query
+    //             if (mysqli_stmt_execute($stmt))
+    //             {
+    //                 header("location: index.php");
+    //             }
+    //             else{
+    //                 echo "Something went wrong... cannot redirect!";
+    //             }
+    //         }
+    //         mysqli_stmt_close($stmt);
+    //     }
+    //     mysqli_close($conn);
+    // }
 
 }
 

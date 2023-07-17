@@ -3634,6 +3634,7 @@ Page Title
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 .banner-section .content-box h2 {
@@ -3644,6 +3645,7 @@ Page Title
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 30px;
+    font-family: sans-serif;
 }
 
 .banner-section .content-box .text {
@@ -3652,6 +3654,7 @@ Page Title
     line-height: 26px;
     color: #ffffff;
     margin-bottom: 40px;
+    font-family:sans-serif
 }
 
 .banner-section .content-box .time-counter-two {
@@ -14268,3 +14271,5 @@ span.sub-title-get {
     align-items: center;
     height: 100vh;
   }
+
+  
